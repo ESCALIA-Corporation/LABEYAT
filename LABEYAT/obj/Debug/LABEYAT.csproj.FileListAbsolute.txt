@@ -1,0 +1,10 @@
+C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\bin\Debug\LABEYAT.exe.config
+C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\bin\Debug\LABEYAT.exe
+C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\bin\Debug\LABEYAT.pdb
+C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.main.resources
+C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.Properties.Resources.resources
+C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.csproj.GenerateResource.cache
+C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.exe
+C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.pdb

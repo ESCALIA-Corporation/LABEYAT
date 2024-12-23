@@ -46,14 +46,84 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="doc1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>doc1.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doc2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doc2.Designer.cs">
+      <DependentUpon>doc2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doc3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doc3.Designer.cs">
+      <DependentUpon>doc3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doc4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doc4.Designer.cs">
+      <DependentUpon>doc4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doc5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doc5.Designer.cs">
+      <DependentUpon>doc5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doc6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doc6.Designer.cs">
+      <DependentUpon>doc6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doc7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doc7.Designer.cs">
+      <DependentUpon>doc7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doc8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doc8.Designer.cs">
+      <DependentUpon>doc8.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include=".Designer.resx">
+      <DependentUpon>.Designer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doc1.resx">
+      <DependentUpon>doc1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doc2.resx">
+      <DependentUpon>doc2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doc3.resx">
+      <DependentUpon>doc3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doc4.resx">
+      <DependentUpon>doc4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doc5.resx">
+      <DependentUpon>doc5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doc6.resx">
+      <DependentUpon>doc6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doc7.resx">
+      <DependentUpon>doc7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doc8.resx">
+      <DependentUpon>doc8.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -1,5 +1,5 @@
 # LABEYAT
-0.0 Initial - External Proyect
+0.2 Initial - External Proyect
 ## Descripción del Proyecto
 
 LABEYAT es una aplicación de Windows Forms desarrollada en C# con el objetivo de administrar los datos de las tablas de una base de datos SQL Server. Esta herramienta permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre las tablas de la base de datos de manera eficiente y sencilla.
