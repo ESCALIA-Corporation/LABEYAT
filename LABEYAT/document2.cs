@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace LABEYAT
 {
-    public partial class doc2 : Form
+    public partial class document2 : UserControl
     {
-        public doc2()
+        public document2()
         {
             InitializeComponent();
         }
 
-        private void TabPage1_Click(object sender, EventArgs e)
+        private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

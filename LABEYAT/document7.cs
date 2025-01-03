@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LABEYAT
 {
-    public partial class doc5 : Form
+    public partial class document7 : UserControl
     {
-        public doc5()
+        public document7()
         {
             InitializeComponent();
         }

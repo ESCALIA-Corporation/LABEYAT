@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace LABEYAT
 {
-    public partial class doc6 : Form
+    public partial class document3 : UserControl
     {
-        public doc6()
+        public document3()
         {
             InitializeComponent();
-        }
-
-        private void TextBox2_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

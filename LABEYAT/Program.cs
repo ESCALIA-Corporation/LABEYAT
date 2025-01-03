@@ -16,7 +16,7 @@ namespace LABEYAT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new doc1());
+            Application.Run(new main());
         }
     }
 }

@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,6 +47,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,83 +64,89 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="doc1.cs">
+    <Compile Include="document1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="document1.Designer.cs">
+      <DependentUpon>document1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="document2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="document2.Designer.cs">
+      <DependentUpon>document2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="document3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="document3.Designer.cs">
+      <DependentUpon>document3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="document4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="document4.Designer.cs">
+      <DependentUpon>document4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="document5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="document5.Designer.cs">
+      <DependentUpon>document5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="document6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="document6.Designer.cs">
+      <DependentUpon>document6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="document7.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="document7.Designer.cs">
+      <DependentUpon>document7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="document8.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="document8.Designer.cs">
+      <DependentUpon>document8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include=".Designer.cs">
-      <DependentUpon>doc1.cs</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="doc2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="doc2.Designer.cs">
-      <DependentUpon>doc2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="doc3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="doc3.Designer.cs">
-      <DependentUpon>doc3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="doc4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="doc4.Designer.cs">
-      <DependentUpon>doc4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="doc5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="doc5.Designer.cs">
-      <DependentUpon>doc5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="doc6.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="doc6.Designer.cs">
-      <DependentUpon>doc6.cs</DependentUpon>
-    </Compile>
-    <Compile Include="doc7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="doc7.Designer.cs">
-      <DependentUpon>doc7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="doc8.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="doc8.Designer.cs">
-      <DependentUpon>doc8.cs</DependentUpon>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include=".Designer.resx">
-      <DependentUpon>.Designer.cs</DependentUpon>
+    <Compile Include="src\connectiondb.cs" />
+    <EmbeddedResource Include="document1.resx">
+      <DependentUpon>document1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="doc1.resx">
-      <DependentUpon>doc1.cs</DependentUpon>
+    <EmbeddedResource Include="document2.resx">
+      <DependentUpon>document2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="doc2.resx">
-      <DependentUpon>doc2.cs</DependentUpon>
+    <EmbeddedResource Include="document3.resx">
+      <DependentUpon>document3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="doc3.resx">
-      <DependentUpon>doc3.cs</DependentUpon>
+    <EmbeddedResource Include="document4.resx">
+      <DependentUpon>document4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="doc4.resx">
-      <DependentUpon>doc4.cs</DependentUpon>
+    <EmbeddedResource Include="document5.resx">
+      <DependentUpon>document5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="doc5.resx">
-      <DependentUpon>doc5.cs</DependentUpon>
+    <EmbeddedResource Include="document6.resx">
+      <DependentUpon>document6.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="doc6.resx">
-      <DependentUpon>doc6.cs</DependentUpon>
+    <EmbeddedResource Include="document7.resx">
+      <DependentUpon>document7.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="doc7.resx">
-      <DependentUpon>doc7.cs</DependentUpon>
+    <EmbeddedResource Include="document8.resx">
+      <DependentUpon>document8.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="doc8.resx">
-      <DependentUpon>doc8.cs</DependentUpon>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -145,6 +169,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
