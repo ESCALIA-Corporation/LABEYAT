@@ -300,7 +300,7 @@
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(224, 40);
             this.button9.TabIndex = 3;
-            this.button9.Text = "git ";
+            this.button9.Text = "Acerca de";
             this.button9.UseVisualStyleBackColor = false;
             // 
             // main

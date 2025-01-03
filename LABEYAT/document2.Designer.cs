@@ -5,6 +5,7 @@
         /// <summary> 
         /// Variable del diseñador necesaria.
         /// </summary>
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.ComponentModel.IContainer components = null;
 
         /// <summary> 
@@ -28,8 +29,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.TabControl1 = new System.Windows.Forms.TabControl();
             this.TabPage1 = new System.Windows.Forms.TabPage();
+            this.Button4 = new System.Windows.Forms.Button();
+            this.Button3 = new System.Windows.Forms.Button();
+            this.Button2 = new System.Windows.Forms.Button();
+            this.Button1 = new System.Windows.Forms.Button();
             this.DateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.Label8 = new System.Windows.Forms.Label();
             this.TextBox6 = new System.Windows.Forms.TextBox();
@@ -72,11 +78,6 @@
             this.Button6 = new System.Windows.Forms.Button();
             this.TextBox5 = new System.Windows.Forms.TextBox();
             this.Label13 = new System.Windows.Forms.Label();
-            this.Button4 = new System.Windows.Forms.Button();
-            this.Button3 = new System.Windows.Forms.Button();
-            this.Button2 = new System.Windows.Forms.Button();
-            this.Button1 = new System.Windows.Forms.Button();
-            this.DataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -86,11 +87,20 @@
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.TabControl1.SuspendLayout();
             this.TabPage1.SuspendLayout();
             this.TabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(26, 461);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1068, 248);
+            this.dataGridView1.TabIndex = 0;
             // 
             // TabControl1
             // 
@@ -107,7 +117,7 @@
             // TabPage1
             // 
             this.TabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.TabPage1.Controls.Add(this.DataGridView1);
+            this.TabPage1.Controls.Add(this.dataGridView1);
             this.TabPage1.Controls.Add(this.Button4);
             this.TabPage1.Controls.Add(this.Button3);
             this.TabPage1.Controls.Add(this.Button2);
@@ -144,6 +154,50 @@
             this.TabPage1.Size = new System.Drawing.Size(1143, 717);
             this.TabPage1.TabIndex = 0;
             this.TabPage1.Text = "Datos generales";
+            // 
+            // Button4
+            // 
+            this.Button4.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button4.ForeColor = System.Drawing.Color.Black;
+            this.Button4.Location = new System.Drawing.Point(980, 158);
+            this.Button4.Name = "Button4";
+            this.Button4.Size = new System.Drawing.Size(139, 37);
+            this.Button4.TabIndex = 69;
+            this.Button4.Text = "Limpiar";
+            this.Button4.UseVisualStyleBackColor = true;
+            // 
+            // Button3
+            // 
+            this.Button3.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button3.ForeColor = System.Drawing.Color.Black;
+            this.Button3.Location = new System.Drawing.Point(980, 114);
+            this.Button3.Name = "Button3";
+            this.Button3.Size = new System.Drawing.Size(139, 37);
+            this.Button3.TabIndex = 68;
+            this.Button3.Text = "Eliminar";
+            this.Button3.UseVisualStyleBackColor = true;
+            // 
+            // Button2
+            // 
+            this.Button2.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button2.ForeColor = System.Drawing.Color.Black;
+            this.Button2.Location = new System.Drawing.Point(980, 70);
+            this.Button2.Name = "Button2";
+            this.Button2.Size = new System.Drawing.Size(139, 37);
+            this.Button2.TabIndex = 67;
+            this.Button2.Text = "Actualizar";
+            this.Button2.UseVisualStyleBackColor = true;
+            // 
+            // Button1
+            // 
+            this.Button1.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button1.ForeColor = System.Drawing.Color.Black;
+            this.Button1.Location = new System.Drawing.Point(980, 24);
+            this.Button1.Name = "Button1";
+            this.Button1.Size = new System.Drawing.Size(139, 37);
+            this.Button1.TabIndex = 66;
+            this.Button1.Text = "Registrar";
+            this.Button1.UseVisualStyleBackColor = true;
             // 
             // DateTimePicker1
             // 
@@ -651,70 +705,6 @@
             this.Label13.TabIndex = 36;
             this.Label13.Text = "Número de equipo:";
             // 
-            // Button4
-            // 
-            this.Button4.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button4.ForeColor = System.Drawing.Color.Black;
-            this.Button4.Location = new System.Drawing.Point(980, 158);
-            this.Button4.Name = "Button4";
-            this.Button4.Size = new System.Drawing.Size(139, 37);
-            this.Button4.TabIndex = 69;
-            this.Button4.Text = "Limpiar";
-            this.Button4.UseVisualStyleBackColor = true;
-            // 
-            // Button3
-            // 
-            this.Button3.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button3.ForeColor = System.Drawing.Color.Black;
-            this.Button3.Location = new System.Drawing.Point(980, 114);
-            this.Button3.Name = "Button3";
-            this.Button3.Size = new System.Drawing.Size(139, 37);
-            this.Button3.TabIndex = 68;
-            this.Button3.Text = "Eliminar";
-            this.Button3.UseVisualStyleBackColor = true;
-            // 
-            // Button2
-            // 
-            this.Button2.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button2.ForeColor = System.Drawing.Color.Black;
-            this.Button2.Location = new System.Drawing.Point(980, 70);
-            this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(139, 37);
-            this.Button2.TabIndex = 67;
-            this.Button2.Text = "Actualizar";
-            this.Button2.UseVisualStyleBackColor = true;
-            // 
-            // Button1
-            // 
-            this.Button1.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button1.ForeColor = System.Drawing.Color.Black;
-            this.Button1.Location = new System.Drawing.Point(980, 24);
-            this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(139, 37);
-            this.Button1.TabIndex = 66;
-            this.Button1.Text = "Registrar";
-            this.Button1.UseVisualStyleBackColor = true;
-            // 
-            // DataGridView1
-            // 
-            this.DataGridView1.AllowUserToOrderColumns = true;
-            this.DataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7,
-            this.Column8,
-            this.Column9});
-            this.DataGridView1.Location = new System.Drawing.Point(22, 461);
-            this.DataGridView1.Name = "DataGridView1";
-            this.DataGridView1.Size = new System.Drawing.Size(1093, 232);
-            this.DataGridView1.TabIndex = 71;
-            // 
             // Column1
             // 
             this.Column1.HeaderText = "Número de equipo";
@@ -768,12 +758,13 @@
             this.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "document2";
             this.Size = new System.Drawing.Size(1159, 759);
+            this.Load += new System.EventHandler(this.document2_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.TabControl1.ResumeLayout(false);
             this.TabPage1.ResumeLayout(false);
             this.TabPage1.PerformLayout();
             this.TabPage2.ResumeLayout(false);
             this.TabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }

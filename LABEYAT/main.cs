@@ -106,7 +106,16 @@ namespace LABEYAT
 
         private void button10_Click(object sender, EventArgs e)
         {
+            var confirmResult = MessageBox.Show(
+                "¿Estás seguro de que deseas cerrar la aplicación?",
+                "Confirmación de salida",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
 
+            if (confirmResult == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
     }
 }
