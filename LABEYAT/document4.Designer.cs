@@ -38,16 +38,6 @@
             this.ComboBox13 = new System.Windows.Forms.ComboBox();
             this.Label21 = new System.Windows.Forms.Label();
             this.Label14 = new System.Windows.Forms.Label();
-            this.DataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Referencia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Button5 = new System.Windows.Forms.Button();
             this.Button4 = new System.Windows.Forms.Button();
             this.Button3 = new System.Windows.Forms.Button();
@@ -95,11 +85,12 @@
             this.Button6 = new System.Windows.Forms.Button();
             this.TextBox5 = new System.Windows.Forms.TextBox();
             this.Label13 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.TabControl1.SuspendLayout();
             this.TabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
             this.TabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // TabControl1
@@ -117,6 +108,7 @@
             // TabPage1
             // 
             this.TabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
+            this.TabPage1.Controls.Add(this.dataGridView1);
             this.TabPage1.Controls.Add(this.PictureBox1);
             this.TabPage1.Controls.Add(this.Button7);
             this.TabPage1.Controls.Add(this.TextBox6);
@@ -125,7 +117,6 @@
             this.TabPage1.Controls.Add(this.ComboBox13);
             this.TabPage1.Controls.Add(this.Label21);
             this.TabPage1.Controls.Add(this.Label14);
-            this.TabPage1.Controls.Add(this.DataGridView1);
             this.TabPage1.Controls.Add(this.Button5);
             this.TabPage1.Controls.Add(this.Button4);
             this.TabPage1.Controls.Add(this.Button3);
@@ -252,71 +243,6 @@
             this.Label14.Size = new System.Drawing.Size(199, 24);
             this.Label14.TabIndex = 53;
             this.Label14.Text = "Resultados de búsqueda:";
-            // 
-            // DataGridView1
-            // 
-            this.DataGridView1.AllowUserToOrderColumns = true;
-            this.DataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Referencia,
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7,
-            this.Column8});
-            this.DataGridView1.Location = new System.Drawing.Point(41, 483);
-            this.DataGridView1.Name = "DataGridView1";
-            this.DataGridView1.Size = new System.Drawing.Size(1057, 211);
-            this.DataGridView1.TabIndex = 52;
-            // 
-            // Referencia
-            // 
-            this.Referencia.HeaderText = "Referencia";
-            this.Referencia.Name = "Referencia";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Nombre";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Marca";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Modelo";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Número de serie";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Cantidad";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Unidad de medida";
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "Ubicación";
-            this.Column7.Name = "Column7";
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "Responsable";
-            this.Column8.Name = "Column8";
             // 
             // Button5
             // 
@@ -913,6 +839,14 @@
             this.Label13.TabIndex = 36;
             this.Label13.Text = "Referencia:";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(43, 493);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1055, 209);
+            this.dataGridView1.TabIndex = 61;
+            // 
             // document4
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -921,13 +855,14 @@
             this.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "document4";
             this.Size = new System.Drawing.Size(1159, 759);
+            this.Load += new System.EventHandler(this.document4_Load);
             this.TabControl1.ResumeLayout(false);
             this.TabPage1.ResumeLayout(false);
             this.TabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).EndInit();
             this.TabPage2.ResumeLayout(false);
             this.TabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -944,16 +879,6 @@
         internal System.Windows.Forms.ComboBox ComboBox13;
         internal System.Windows.Forms.Label Label21;
         internal System.Windows.Forms.Label Label14;
-        internal System.Windows.Forms.DataGridView DataGridView1;
-        internal System.Windows.Forms.DataGridViewTextBoxColumn Referencia;
-        internal System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        internal System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        internal System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        internal System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        internal System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        internal System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        internal System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        internal System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         internal System.Windows.Forms.Button Button5;
         internal System.Windows.Forms.Button Button4;
         internal System.Windows.Forms.Button Button3;
@@ -1001,5 +926,6 @@
         internal System.Windows.Forms.Button Button6;
         internal System.Windows.Forms.TextBox TextBox5;
         internal System.Windows.Forms.Label Label13;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

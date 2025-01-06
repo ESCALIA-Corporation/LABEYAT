@@ -30,10 +30,6 @@
         {
             this.TextBox4 = new System.Windows.Forms.TextBox();
             this.Label14 = new System.Windows.Forms.Label();
-            this.DataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Button5 = new System.Windows.Forms.Button();
             this.TextBox2 = new System.Windows.Forms.TextBox();
             this.TextBox1 = new System.Windows.Forms.TextBox();
@@ -44,7 +40,8 @@
             this.Button3 = new System.Windows.Forms.Button();
             this.Button2 = new System.Windows.Forms.Button();
             this.Button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // TextBox4
@@ -70,35 +67,6 @@
             this.Label14.Size = new System.Drawing.Size(199, 24);
             this.Label14.TabIndex = 80;
             this.Label14.Text = "Resultados de búsqueda:";
-            // 
-            // DataGridView1
-            // 
-            this.DataGridView1.AllowUserToOrderColumns = true;
-            this.DataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3});
-            this.DataGridView1.Location = new System.Drawing.Point(59, 356);
-            this.DataGridView1.Name = "DataGridView1";
-            this.DataGridView1.Size = new System.Drawing.Size(580, 63);
-            this.DataGridView1.TabIndex = 79;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Número";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Nombre";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Descripción";
-            this.Column3.Name = "Column3";
             // 
             // Button5
             // 
@@ -213,17 +181,25 @@
             this.Button1.Text = "Registrar";
             this.Button1.UseVisualStyleBackColor = true;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(56, 361);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(559, 280);
+            this.dataGridView1.TabIndex = 86;
+            // 
             // document6
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Button4);
             this.Controls.Add(this.Button3);
             this.Controls.Add(this.Button2);
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.TextBox4);
             this.Controls.Add(this.Label14);
-            this.Controls.Add(this.DataGridView1);
             this.Controls.Add(this.Button5);
             this.Controls.Add(this.TextBox2);
             this.Controls.Add(this.TextBox1);
@@ -233,7 +209,8 @@
             this.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "document6";
             this.Size = new System.Drawing.Size(1159, 759);
-            ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.document6_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -243,10 +220,6 @@
 
         internal System.Windows.Forms.TextBox TextBox4;
         internal System.Windows.Forms.Label Label14;
-        internal System.Windows.Forms.DataGridView DataGridView1;
-        internal System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        internal System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        internal System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         internal System.Windows.Forms.Button Button5;
         internal System.Windows.Forms.TextBox TextBox2;
         internal System.Windows.Forms.TextBox TextBox1;
@@ -257,5 +230,6 @@
         internal System.Windows.Forms.Button Button3;
         internal System.Windows.Forms.Button Button2;
         internal System.Windows.Forms.Button Button1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
