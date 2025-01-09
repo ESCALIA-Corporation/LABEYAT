@@ -44,5 +44,18 @@ namespace LABEYAT
                 MessageBox.Show($"Error al cargar datos, vuelva a intentarlo mas tarde: {ex.Message}");
             }
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Connectiondb.Conectar();
+            string query = "INSERT INTO [dbo].[Departamento] (IDDepto, Nombre) VALUES (@iddepto, @nombre);";
+            SqlCommand cmd = new SqlCommand(query, Connectiondb.Conectar());
+            cmd.Parameters.AddWithValue("@iddepto", TextBox1.Text);
+            cmd.Parameters.AddWithValue("@nombre", TextBox2.Text);
+
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Departamento agregado correctamente");
+            dataGridView1.DataSource = cargardepartamento();
+        }
     }
 }

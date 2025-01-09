@@ -45,5 +45,19 @@ namespace LABEYAT
                 MessageBox.Show($"Error al cargar datos, vuelva a intentarlo mas tarde: {ex.Message}");
             }
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Connectiondb.Conectar();
+            string query = "INSERT INTO [dbo].[Normas] (IDNorma, Nombre, Descripcion) VALUES (@idnorma, @nombre, @descripcion);";
+            SqlCommand cmd = new SqlCommand(query, Connectiondb.Conectar());
+            cmd.Parameters.AddWithValue("@idnorma", TextBox1.Text);
+            cmd.Parameters.AddWithValue("@nombre", TextBox2.Text);
+            cmd.Parameters.AddWithValue("@descripcion", TextBox4.Text);
+
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Norma agregada correctamente");
+            dataGridView1.DataSource = cargarnormas();
+        }
     }
 }

@@ -154,6 +154,7 @@
             this.Button1.TabIndex = 76;
             this.Button1.Text = "Registrar";
             this.Button1.UseVisualStyleBackColor = true;
+            this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // dataGridView1
             // 

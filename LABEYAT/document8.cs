@@ -50,5 +50,18 @@ namespace LABEYAT
         {
 
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Connectiondb.Conectar();
+            string query = "INSERT INTO [dbo].[Marca] (IDMarca, Nombre) VALUES (@idmarca, @nombre);";
+            SqlCommand cmd = new SqlCommand(query, Connectiondb.Conectar());
+            cmd.Parameters.AddWithValue("@idmarca", TextBox1.Text);
+            cmd.Parameters.AddWithValue("@nombre", TextBox2.Text);
+
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Marca agregada correctamente");
+            dataGridView1.DataSource = cargarmarca();
+        }
     }
 }

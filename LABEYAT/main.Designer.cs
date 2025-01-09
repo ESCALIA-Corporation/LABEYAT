@@ -153,7 +153,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(224, 40);
             this.button6.TabIndex = 2;
-            this.button6.Text = "Panel 6";
+            this.button6.Text = "Norma";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -169,7 +169,7 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(224, 40);
             this.button7.TabIndex = 2;
-            this.button7.Text = "Panel 7";
+            this.button7.Text = "Departamento";
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -185,12 +185,15 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(224, 40);
             this.button8.TabIndex = 2;
-            this.button8.Text = "Panel 8";
+            this.button8.Text = "Marca";
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
@@ -205,6 +208,7 @@
             // 
             // label6
             // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(927, 727);
             this.label6.Name = "label6";
@@ -214,6 +218,7 @@
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Quicksand", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(463, 471);
@@ -224,6 +229,7 @@
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -236,6 +242,7 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(327, 347);
             this.label3.Name = "label3";
@@ -245,6 +252,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Quicksand Medium", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(345, 280);
@@ -255,6 +263,8 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(179)))), ((int)(((byte)(240)))));
             this.panel2.Controls.Add(this.button10);
             this.panel2.Controls.Add(this.button9);
@@ -274,6 +284,7 @@
             // 
             // button10
             // 
+            this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(179)))), ((int)(((byte)(240)))));
             this.button10.FlatAppearance.BorderSize = 0;
             this.button10.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
@@ -290,6 +301,7 @@
             // 
             // button9
             // 
+            this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(179)))), ((int)(((byte)(240)))));
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
