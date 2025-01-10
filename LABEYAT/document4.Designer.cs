@@ -30,6 +30,7 @@
         {
             this.TabControl1 = new System.Windows.Forms.TabControl();
             this.TabPage1 = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.Button7 = new System.Windows.Forms.Button();
             this.TextBox6 = new System.Windows.Forms.TextBox();
@@ -85,16 +86,18 @@
             this.Button6 = new System.Windows.Forms.Button();
             this.TextBox5 = new System.Windows.Forms.TextBox();
             this.Label13 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.TabControl1.SuspendLayout();
             this.TabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.TabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // TabControl1
             // 
+            this.TabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TabControl1.Controls.Add(this.TabPage1);
             this.TabControl1.Controls.Add(this.TabPage2);
             this.TabControl1.Font = new System.Drawing.Font("Quicksand", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -154,11 +157,23 @@
             this.TabPage1.TabIndex = 0;
             this.TabPage1.Text = "Datos generales";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(43, 493);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1055, 209);
+            this.dataGridView1.TabIndex = 61;
+            // 
             // PictureBox1
             // 
-            this.PictureBox1.Location = new System.Drawing.Point(436, 361);
+            this.PictureBox1.Location = new System.Drawing.Point(419, 361);
             this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(231, 108);
+            this.PictureBox1.Size = new System.Drawing.Size(281, 108);
             this.PictureBox1.TabIndex = 60;
             this.PictureBox1.TabStop = false;
             // 
@@ -201,7 +216,7 @@
             this.Label10.AutoSize = true;
             this.Label10.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label10.ForeColor = System.Drawing.Color.Black;
-            this.Label10.Location = new System.Drawing.Point(640, 243);
+            this.Label10.Location = new System.Drawing.Point(695, 247);
             this.Label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label10.Name = "Label10";
             this.Label10.Size = new System.Drawing.Size(67, 24);
@@ -214,7 +229,7 @@
             this.ComboBox13.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComboBox13.ForeColor = System.Drawing.Color.Black;
             this.ComboBox13.FormattingEnabled = true;
-            this.ComboBox13.Location = new System.Drawing.Point(715, 306);
+            this.ComboBox13.Location = new System.Drawing.Point(770, 310);
             this.ComboBox13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox13.Name = "ComboBox13";
             this.ComboBox13.Size = new System.Drawing.Size(145, 32);
@@ -225,7 +240,7 @@
             this.Label21.AutoSize = true;
             this.Label21.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label21.ForeColor = System.Drawing.Color.Black;
-            this.Label21.Location = new System.Drawing.Point(509, 315);
+            this.Label21.Location = new System.Drawing.Point(564, 319);
             this.Label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label21.Name = "Label21";
             this.Label21.Size = new System.Drawing.Size(203, 24);
@@ -257,6 +272,7 @@
             // 
             // Button4
             // 
+            this.Button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Button4.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button4.ForeColor = System.Drawing.Color.Black;
             this.Button4.Location = new System.Drawing.Point(997, 146);
@@ -268,6 +284,7 @@
             // 
             // Button3
             // 
+            this.Button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Button3.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button3.ForeColor = System.Drawing.Color.Black;
             this.Button3.Location = new System.Drawing.Point(997, 102);
@@ -279,6 +296,7 @@
             // 
             // Button2
             // 
+            this.Button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Button2.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button2.ForeColor = System.Drawing.Color.Black;
             this.Button2.Location = new System.Drawing.Point(997, 58);
@@ -290,6 +308,7 @@
             // 
             // Button1
             // 
+            this.Button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Button1.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button1.ForeColor = System.Drawing.Color.Black;
             this.Button1.Location = new System.Drawing.Point(997, 12);
@@ -316,7 +335,7 @@
             "NOM-133/1-SCFI-1999",
             "NOM-133/1-SCFI-1999",
             "NOM-133/1-SCFI-1999"});
-            this.CheckedListBox1.Location = new System.Drawing.Point(618, 49);
+            this.CheckedListBox1.Location = new System.Drawing.Point(673, 53);
             this.CheckedListBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.CheckedListBox1.Name = "CheckedListBox1";
             this.CheckedListBox1.Size = new System.Drawing.Size(209, 178);
@@ -328,7 +347,7 @@
             this.ComboBox7.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComboBox7.ForeColor = System.Drawing.Color.Black;
             this.ComboBox7.FormattingEnabled = true;
-            this.ComboBox7.Location = new System.Drawing.Point(715, 273);
+            this.ComboBox7.Location = new System.Drawing.Point(770, 277);
             this.ComboBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox7.Name = "ComboBox7";
             this.ComboBox7.Size = new System.Drawing.Size(145, 32);
@@ -352,7 +371,7 @@
             this.ComboBox5.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComboBox5.ForeColor = System.Drawing.Color.Black;
             this.ComboBox5.FormattingEnabled = true;
-            this.ComboBox5.Location = new System.Drawing.Point(715, 240);
+            this.ComboBox5.Location = new System.Drawing.Point(770, 244);
             this.ComboBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox5.Name = "ComboBox5";
             this.ComboBox5.Size = new System.Drawing.Size(145, 32);
@@ -461,7 +480,7 @@
             this.Label12.AutoSize = true;
             this.Label12.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label12.ForeColor = System.Drawing.Color.Black;
-            this.Label12.Location = new System.Drawing.Point(614, 25);
+            this.Label12.Location = new System.Drawing.Point(669, 29);
             this.Label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label12.Name = "Label12";
             this.Label12.Size = new System.Drawing.Size(74, 24);
@@ -473,7 +492,7 @@
             this.Label11.AutoSize = true;
             this.Label11.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label11.ForeColor = System.Drawing.Color.Black;
-            this.Label11.Location = new System.Drawing.Point(592, 279);
+            this.Label11.Location = new System.Drawing.Point(647, 283);
             this.Label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label11.Name = "Label11";
             this.Label11.Size = new System.Drawing.Size(119, 24);
@@ -839,14 +858,6 @@
             this.Label13.TabIndex = 36;
             this.Label13.Text = "Referencia:";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(43, 493);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1055, 209);
-            this.dataGridView1.TabIndex = 61;
-            // 
             // document4
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -859,10 +870,10 @@
             this.TabControl1.ResumeLayout(false);
             this.TabPage1.ResumeLayout(false);
             this.TabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.TabPage2.ResumeLayout(false);
             this.TabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -59,5 +59,29 @@ namespace LABEYAT
                 MessageBox.Show($"Error al cargar datos, vuelva a intentarlo mas tarde: {ex.Message}");
             }
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+
+            //TODO: Fix them because they are not working correctly
+            Connectiondb.Conectar();
+            string query = "INSERT INTO [dbo].[EquipoOficina] (IDNumero, Nomenclatura, Inmueble, IDMarca, IDModelo, NumSerie, Cantidad, Observaciones, FechaBaja, IDResponsable, IDEstatus) VALUES (@idnumero, @nomenclatura, @inmueble, @idmarca, @idmodelo, @numSerie, @cantidad, @observaciones, @fechaBaja, @idresponsable, @idestatus);";
+            SqlCommand cmd = new SqlCommand(query, Connectiondb.Conectar());
+            cmd.Parameters.AddWithValue("@idnumero", TextBox1.Text);
+            cmd.Parameters.AddWithValue("@nomenclatura", TextBox2.Text);
+            cmd.Parameters.AddWithValue("@inmueble", ComboBox13.Text);
+            cmd.Parameters.AddWithValue("@idmarca", ComboBox1.Text);
+            cmd.Parameters.AddWithValue("@idmodelo", ComboBox2.Text);
+            cmd.Parameters.AddWithValue("@numSerie", TextBox3.Text);
+            cmd.Parameters.AddWithValue("@cantidad", TextBox4.Text);
+            cmd.Parameters.AddWithValue("@observaciones", TextBox6.Text);
+            cmd.Parameters.AddWithValue("@fechaBaja", DateTimePicker1.Text);
+            cmd.Parameters.AddWithValue("@idresponsable", ComboBox5.Text);
+            cmd.Parameters.AddWithValue("@idestatus", ComboBox7.Text);
+
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Departamento agregado correctamente");
+            dataGridView1.DataSource = CargarEquipooficina();
+        }
     }
 }

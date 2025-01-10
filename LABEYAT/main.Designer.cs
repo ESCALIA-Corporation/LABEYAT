@@ -137,7 +137,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(224, 40);
             this.button5.TabIndex = 2;
-            this.button5.Text = "Panel 5";
+            this.button5.Text = "Responsable";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -214,7 +214,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(222, 24);
             this.label6.TabIndex = 4;
-            this.label6.Text = "© 2024 ESCALIA Corporation";
+            this.label6.Text = "© 2025 ESCALIA Corporation";
             // 
             // label5
             // 

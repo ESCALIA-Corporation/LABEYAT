@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace LABEYAT
 {
@@ -56,6 +57,31 @@ namespace LABEYAT
                 var cellValue = dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value;
                 MessageBox.Show($"Has hecho clic en la celda: {cellValue}");
             }
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            //TODO: Fix them because they are not working correctly
+            Connectiondb.Conectar();
+            string query = "INSERT INTO [dbo].[EquipoMedicion] (Referencia, Nombre, IDMarca, IDModelo, NumSerie, Imagen, Cantidad, IDUMedida, IDUbicacion, IDResponsable, IDEstatus, EstadoUso, EstadoMtto)  VALUES (@referencia, @nombre, @idmarca, @idmodelo, @numSerie, @imagen, @cantidad, idumedida, @idubicacion, @idresponsable, @idestatus, @estadoUso, @estadoMtto);";
+            SqlCommand cmd = new SqlCommand(query, Connectiondb.Conectar());
+            cmd.Parameters.AddWithValue("@referencia", textBox1.Text);
+            cmd.Parameters.AddWithValue("@nombre", textBox2.Text);
+            cmd.Parameters.AddWithValue("@idmarca", textBox3.Text);
+            cmd.Parameters.AddWithValue("@idmodelo", textBox4.Text);
+            cmd.Parameters.AddWithValue("@numSerie", textBox5.Text);
+            cmd.Parameters.AddWithValue("@imagen", textBox6.Text);
+            cmd.Parameters.AddWithValue("@cantidad", textBox7.Text);
+            cmd.Parameters.AddWithValue("@idumedida", textBox8.Text);
+            cmd.Parameters.AddWithValue("@idubicacion", textBox9.Text);
+            cmd.Parameters.AddWithValue("@idresponsable", textBox10.Text);
+            cmd.Parameters.AddWithValue("@idestatus", textBox11.Text);
+            cmd.Parameters.AddWithValue("@estadoUso", textBox12.Text);
+            cmd.Parameters.AddWithValue("@estadoMtto", textBox13.Text);
+
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Departamento agregado correctamente");
+            dataGridView1.DataSource = cargarequipomedicion();
         }
     }
 }

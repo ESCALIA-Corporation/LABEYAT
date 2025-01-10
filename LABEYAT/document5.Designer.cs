@@ -51,7 +51,7 @@
             this.TextBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
             this.TextBox4.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBox4.ForeColor = System.Drawing.Color.Black;
-            this.TextBox4.Location = new System.Drawing.Point(186, 158);
+            this.TextBox4.Location = new System.Drawing.Point(175, 99);
             this.TextBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TextBox4.Name = "TextBox4";
             this.TextBox4.Size = new System.Drawing.Size(310, 27);
@@ -62,7 +62,7 @@
             this.TextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
             this.TextBox3.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBox3.ForeColor = System.Drawing.Color.Black;
-            this.TextBox3.Location = new System.Drawing.Point(186, 194);
+            this.TextBox3.Location = new System.Drawing.Point(175, 135);
             this.TextBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TextBox3.Name = "TextBox3";
             this.TextBox3.Size = new System.Drawing.Size(310, 27);
@@ -73,7 +73,7 @@
             this.Label14.AutoSize = true;
             this.Label14.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label14.ForeColor = System.Drawing.Color.Black;
-            this.Label14.Location = new System.Drawing.Point(52, 277);
+            this.Label14.Location = new System.Drawing.Point(40, 200);
             this.Label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label14.Name = "Label14";
             this.Label14.Size = new System.Drawing.Size(199, 24);
@@ -84,7 +84,7 @@
             // 
             this.Button5.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button5.ForeColor = System.Drawing.Color.Black;
-            this.Button5.Location = new System.Drawing.Point(357, 77);
+            this.Button5.Location = new System.Drawing.Point(346, 18);
             this.Button5.Name = "Button5";
             this.Button5.Size = new System.Drawing.Size(139, 37);
             this.Button5.TabIndex = 66;
@@ -93,9 +93,10 @@
             // 
             // Button4
             // 
+            this.Button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Button4.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button4.ForeColor = System.Drawing.Color.Black;
-            this.Button4.Location = new System.Drawing.Point(990, 215);
+            this.Button4.Location = new System.Drawing.Point(1007, 148);
             this.Button4.Name = "Button4";
             this.Button4.Size = new System.Drawing.Size(139, 37);
             this.Button4.TabIndex = 65;
@@ -104,9 +105,10 @@
             // 
             // Button3
             // 
+            this.Button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Button3.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button3.ForeColor = System.Drawing.Color.Black;
-            this.Button3.Location = new System.Drawing.Point(990, 171);
+            this.Button3.Location = new System.Drawing.Point(1007, 104);
             this.Button3.Name = "Button3";
             this.Button3.Size = new System.Drawing.Size(139, 37);
             this.Button3.TabIndex = 64;
@@ -115,9 +117,10 @@
             // 
             // Button2
             // 
+            this.Button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Button2.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button2.ForeColor = System.Drawing.Color.Black;
-            this.Button2.Location = new System.Drawing.Point(990, 127);
+            this.Button2.Location = new System.Drawing.Point(1007, 60);
             this.Button2.Name = "Button2";
             this.Button2.Size = new System.Drawing.Size(139, 37);
             this.Button2.TabIndex = 63;
@@ -126,9 +129,10 @@
             // 
             // Button1
             // 
+            this.Button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Button1.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button1.ForeColor = System.Drawing.Color.Black;
-            this.Button1.Location = new System.Drawing.Point(990, 81);
+            this.Button1.Location = new System.Drawing.Point(1007, 14);
             this.Button1.Name = "Button1";
             this.Button1.Size = new System.Drawing.Size(139, 37);
             this.Button1.TabIndex = 62;
@@ -141,7 +145,7 @@
             this.TextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
             this.TextBox2.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBox2.ForeColor = System.Drawing.Color.Black;
-            this.TextBox2.Location = new System.Drawing.Point(186, 122);
+            this.TextBox2.Location = new System.Drawing.Point(175, 63);
             this.TextBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TextBox2.Name = "TextBox2";
             this.TextBox2.Size = new System.Drawing.Size(310, 27);
@@ -152,7 +156,7 @@
             this.TextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
             this.TextBox1.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBox1.ForeColor = System.Drawing.Color.Black;
-            this.TextBox1.Location = new System.Drawing.Point(186, 86);
+            this.TextBox1.Location = new System.Drawing.Point(175, 27);
             this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TextBox1.Name = "TextBox1";
             this.TextBox1.Size = new System.Drawing.Size(145, 27);
@@ -163,7 +167,7 @@
             this.Label4.AutoSize = true;
             this.Label4.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label4.ForeColor = System.Drawing.Color.Black;
-            this.Label4.Location = new System.Drawing.Point(50, 197);
+            this.Label4.Location = new System.Drawing.Point(39, 138);
             this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
             this.Label4.Size = new System.Drawing.Size(139, 24);
@@ -175,7 +179,7 @@
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label3.ForeColor = System.Drawing.Color.Black;
-            this.Label3.Location = new System.Drawing.Point(52, 161);
+            this.Label3.Location = new System.Drawing.Point(41, 102);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(136, 24);
@@ -187,7 +191,7 @@
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label2.ForeColor = System.Drawing.Color.Black;
-            this.Label2.Location = new System.Drawing.Point(115, 125);
+            this.Label2.Location = new System.Drawing.Point(104, 66);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(75, 24);
@@ -199,7 +203,7 @@
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label1.ForeColor = System.Drawing.Color.Black;
-            this.Label1.Location = new System.Drawing.Point(115, 89);
+            this.Label1.Location = new System.Drawing.Point(104, 30);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(74, 24);
@@ -208,8 +212,12 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(44, 323);
+            this.dataGridView1.Location = new System.Drawing.Point(43, 246);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(623, 389);
             this.dataGridView1.TabIndex = 71;
