@@ -45,5 +45,10 @@ namespace LABEYAT
                 MessageBox.Show($"Error al cargar datos, vuelva a intentarlo mas tarde: {ex.Message}");
             }
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

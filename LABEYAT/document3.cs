@@ -61,6 +61,7 @@ namespace LABEYAT
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            /*
             //TODO: Fix them because they are not working correctly
             Connectiondb.Conectar();
             string query = "INSERT INTO [dbo].[EquipoMedicion] (Referencia, Nombre, IDMarca, IDModelo, NumSerie, Imagen, Cantidad, IDUMedida, IDUbicacion, IDResponsable, IDEstatus, EstadoUso, EstadoMtto)  VALUES (@referencia, @nombre, @idmarca, @idmodelo, @numSerie, @imagen, @cantidad, idumedida, @idubicacion, @idresponsable, @idestatus, @estadoUso, @estadoMtto);";
@@ -82,6 +83,7 @@ namespace LABEYAT
             cmd.ExecuteNonQuery();
             MessageBox.Show("Departamento agregado correctamente");
             dataGridView1.DataSource = cargarequipomedicion();
+            */
         }
     }
 }
