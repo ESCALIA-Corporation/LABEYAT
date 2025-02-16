@@ -7,7 +7,6 @@ C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\bin\Debug\LABEYAT.exe
 C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\bin\Debug\LABEYAT.pdb
 C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.exe
 C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.pdb
-C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.main.resources
 C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.document1.resources
 C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.document2.resources
 C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.document3.resources
@@ -16,3 +15,4 @@ C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.document5.resourc
 C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.document6.resources
 C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.document7.resources
 C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.document8.resources
+C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.window.resources

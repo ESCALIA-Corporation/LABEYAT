@@ -112,15 +112,15 @@
     <Compile Include="document8.Designer.cs">
       <DependentUpon>document8.cs</DependentUpon>
     </Compile>
-    <Compile Include="main.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="main.Designer.cs">
-      <DependentUpon>main.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\connectiondb.cs" />
+    <Compile Include="window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="window.Designer.cs">
+      <DependentUpon>window.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="document1.resx">
       <DependentUpon>document1.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,9 +145,6 @@
     <EmbeddedResource Include="document8.resx">
       <DependentUpon>document8.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="main.resx">
-      <DependentUpon>main.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -157,6 +154,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="window.resx">
+      <DependentUpon>window.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

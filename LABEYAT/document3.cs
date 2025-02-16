@@ -19,6 +19,9 @@ namespace LABEYAT
         {
             InitializeComponent();
         }
+
+
+
         public DataTable cargarequipomedicion()
         {
             DataTable dt = new DataTable();
@@ -84,6 +87,11 @@ namespace LABEYAT
             MessageBox.Show("Departamento agregado correctamente");
             dataGridView1.DataSource = cargarequipomedicion();
             */
+        }
+
+        private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

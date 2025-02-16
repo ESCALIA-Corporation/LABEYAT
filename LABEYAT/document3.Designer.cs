@@ -367,6 +367,7 @@
             this.ComboBox1.Name = "ComboBox1";
             this.ComboBox1.Size = new System.Drawing.Size(310, 32);
             this.ComboBox1.TabIndex = 37;
+            this.ComboBox1.SelectedIndexChanged += new System.EventHandler(this.ComboBox1_SelectedIndexChanged);
             // 
             // TextBox2
             // 

@@ -60,5 +60,89 @@ namespace LABEYAT
             MessageBox.Show("Departamento agregado correctamente");
             dataGridView1.DataSource = cargarresponsable();
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Connectiondb.Conectar();
+            string query = "UPDATE [dbo].[Responsable] SET Nombre = @nombre, Apellido_Paterno = @apellidopaterno, Apellido_Materno = @apellidomaterno WHERE IDResponsable = @idresponsable;";
+            SqlCommand cmd = new SqlCommand(query, Connectiondb.Conectar());
+            cmd.Parameters.AddWithValue("@idresponsable", TextBox1.Text);
+            cmd.Parameters.AddWithValue("@nombre", TextBox2.Text);
+            cmd.Parameters.AddWithValue("@apellidopaterno", TextBox4.Text);
+            cmd.Parameters.AddWithValue("@apellidomaterno", TextBox3.Text);
+            cmd.ExecuteNonQuery();
+
+            MessageBox.Show("Responsable actualizado correctamente");
+            dataGridView1.DataSource = cargarresponsable();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                TextBox1.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                TextBox2.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+                TextBox4.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+                TextBox3.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            }catch
+            {
+            }
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            Connectiondb.Conectar();
+            string query = "DELETE FROM [dbo].[Responsable] WHERE IDResponsable = @idresponsable;";
+            SqlCommand cmd = new SqlCommand(query, Connectiondb.Conectar());
+            cmd.Parameters.AddWithValue("@idresponsable", TextBox1.Text);
+            try
+            {
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Responsable eliminado correctamente");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al eliminar responsable: {ex.Message}");
+            }
+            dataGridView1.DataSource = cargarresponsable();
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            TextBox1.Clear();
+            TextBox2.Clear();
+            TextBox3.Clear();
+            TextBox4.Clear();
+
+        }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            using (SqlConnection conn = Connectiondb.Conectar())
+            {
+                string query;
+                SqlCommand cmd = new SqlCommand();
+
+                if (int.TryParse(TextBox1.Text, out int id))
+                {
+                    query = "SELECT * FROM [dbo].[Responsable] WHERE IDResponsable = @idresponsable;";
+                    cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@idresponsable", id);
+                }
+                else
+                {
+                    query = "SELECT * FROM [dbo].[Responsable] WHERE Nombre LIKE @nombre;";
+                    cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@nombre", "%" + TextBox1.Text + "%");
+                }
+
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                dataGridView1.DataSource = dt;
+            }
+
+        }
     }
 }

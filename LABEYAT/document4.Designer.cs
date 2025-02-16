@@ -179,7 +179,7 @@
             // 
             // Button7
             // 
-            this.Button7.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button7.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Button7.ForeColor = System.Drawing.Color.Black;
             this.Button7.Location = new System.Drawing.Point(348, 363);
             this.Button7.Name = "Button7";
@@ -191,7 +191,7 @@
             // TextBox6
             // 
             this.TextBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.TextBox6.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBox6.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.TextBox6.ForeColor = System.Drawing.Color.Black;
             this.TextBox6.Location = new System.Drawing.Point(196, 364);
             this.TextBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -202,66 +202,66 @@
             // Label22
             // 
             this.Label22.AutoSize = true;
-            this.Label22.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label22.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label22.ForeColor = System.Drawing.Color.Black;
             this.Label22.Location = new System.Drawing.Point(121, 372);
             this.Label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label22.Name = "Label22";
-            this.Label22.Size = new System.Drawing.Size(70, 24);
+            this.Label22.Size = new System.Drawing.Size(67, 19);
             this.Label22.TabIndex = 57;
             this.Label22.Text = "Imagen:";
             // 
             // Label10
             // 
             this.Label10.AutoSize = true;
-            this.Label10.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label10.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label10.ForeColor = System.Drawing.Color.Black;
             this.Label10.Location = new System.Drawing.Point(695, 247);
             this.Label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label10.Name = "Label10";
-            this.Label10.Size = new System.Drawing.Size(67, 24);
+            this.Label10.Size = new System.Drawing.Size(67, 19);
             this.Label10.TabIndex = 56;
             this.Label10.Text = "Estatus:";
             // 
             // ComboBox13
             // 
             this.ComboBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.ComboBox13.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComboBox13.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.ComboBox13.ForeColor = System.Drawing.Color.Black;
             this.ComboBox13.FormattingEnabled = true;
             this.ComboBox13.Location = new System.Drawing.Point(770, 310);
             this.ComboBox13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox13.Name = "ComboBox13";
-            this.ComboBox13.Size = new System.Drawing.Size(145, 32);
+            this.ComboBox13.Size = new System.Drawing.Size(145, 27);
             this.ComboBox13.TabIndex = 55;
             // 
             // Label21
             // 
             this.Label21.AutoSize = true;
-            this.Label21.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label21.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label21.ForeColor = System.Drawing.Color.Black;
             this.Label21.Location = new System.Drawing.Point(564, 319);
             this.Label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label21.Name = "Label21";
-            this.Label21.Size = new System.Drawing.Size(203, 24);
+            this.Label21.Size = new System.Drawing.Size(198, 19);
             this.Label21.TabIndex = 54;
             this.Label21.Text = "Estado de mantenimiento:";
             // 
             // Label14
             // 
             this.Label14.AutoSize = true;
-            this.Label14.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label14.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label14.ForeColor = System.Drawing.Color.Black;
             this.Label14.Location = new System.Drawing.Point(37, 445);
             this.Label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label14.Name = "Label14";
-            this.Label14.Size = new System.Drawing.Size(199, 24);
+            this.Label14.Size = new System.Drawing.Size(191, 19);
             this.Label14.TabIndex = 53;
             this.Label14.Text = "Resultados de búsqueda:";
             // 
             // Button5
             // 
-            this.Button5.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button5.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Button5.ForeColor = System.Drawing.Color.Black;
             this.Button5.Location = new System.Drawing.Point(348, 18);
             this.Button5.Name = "Button5";
@@ -273,7 +273,7 @@
             // Button4
             // 
             this.Button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Button4.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button4.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Button4.ForeColor = System.Drawing.Color.Black;
             this.Button4.Location = new System.Drawing.Point(997, 146);
             this.Button4.Name = "Button4";
@@ -285,7 +285,7 @@
             // Button3
             // 
             this.Button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Button3.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button3.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Button3.ForeColor = System.Drawing.Color.Black;
             this.Button3.Location = new System.Drawing.Point(997, 102);
             this.Button3.Name = "Button3";
@@ -297,7 +297,7 @@
             // Button2
             // 
             this.Button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Button2.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button2.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Button2.ForeColor = System.Drawing.Color.Black;
             this.Button2.Location = new System.Drawing.Point(997, 58);
             this.Button2.Name = "Button2";
@@ -309,7 +309,7 @@
             // Button1
             // 
             this.Button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Button1.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button1.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Button1.ForeColor = System.Drawing.Color.Black;
             this.Button1.Location = new System.Drawing.Point(997, 12);
             this.Button1.Name = "Button1";
@@ -323,7 +323,7 @@
             // 
             this.CheckedListBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
             this.CheckedListBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.CheckedListBox1.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CheckedListBox1.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.CheckedListBox1.ForeColor = System.Drawing.Color.Black;
             this.CheckedListBox1.FormattingEnabled = true;
             this.CheckedListBox1.Items.AddRange(new object[] {
@@ -345,67 +345,67 @@
             // ComboBox7
             // 
             this.ComboBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.ComboBox7.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComboBox7.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.ComboBox7.ForeColor = System.Drawing.Color.Black;
             this.ComboBox7.FormattingEnabled = true;
             this.ComboBox7.Location = new System.Drawing.Point(770, 277);
             this.ComboBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox7.Name = "ComboBox7";
-            this.ComboBox7.Size = new System.Drawing.Size(145, 32);
+            this.ComboBox7.Size = new System.Drawing.Size(145, 27);
             this.ComboBox7.TabIndex = 45;
             // 
             // ComboBox6
             // 
             this.ComboBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.ComboBox6.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComboBox6.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.ComboBox6.ForeColor = System.Drawing.Color.Black;
             this.ComboBox6.FormattingEnabled = true;
             this.ComboBox6.Location = new System.Drawing.Point(196, 312);
             this.ComboBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox6.Name = "ComboBox6";
-            this.ComboBox6.Size = new System.Drawing.Size(310, 32);
+            this.ComboBox6.Size = new System.Drawing.Size(310, 27);
             this.ComboBox6.TabIndex = 44;
             // 
             // ComboBox5
             // 
             this.ComboBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.ComboBox5.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComboBox5.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.ComboBox5.ForeColor = System.Drawing.Color.Black;
             this.ComboBox5.FormattingEnabled = true;
             this.ComboBox5.Location = new System.Drawing.Point(770, 244);
             this.ComboBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox5.Name = "ComboBox5";
-            this.ComboBox5.Size = new System.Drawing.Size(145, 32);
+            this.ComboBox5.Size = new System.Drawing.Size(145, 27);
             this.ComboBox5.TabIndex = 43;
             // 
             // ComboBox4
             // 
             this.ComboBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.ComboBox4.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComboBox4.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.ComboBox4.ForeColor = System.Drawing.Color.Black;
             this.ComboBox4.FormattingEnabled = true;
             this.ComboBox4.Location = new System.Drawing.Point(196, 276);
             this.ComboBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox4.Name = "ComboBox4";
-            this.ComboBox4.Size = new System.Drawing.Size(310, 32);
+            this.ComboBox4.Size = new System.Drawing.Size(310, 27);
             this.ComboBox4.TabIndex = 42;
             // 
             // ComboBox3
             // 
             this.ComboBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.ComboBox3.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComboBox3.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.ComboBox3.ForeColor = System.Drawing.Color.Black;
             this.ComboBox3.FormattingEnabled = true;
             this.ComboBox3.Location = new System.Drawing.Point(196, 240);
             this.ComboBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox3.Name = "ComboBox3";
-            this.ComboBox3.Size = new System.Drawing.Size(310, 32);
+            this.ComboBox3.Size = new System.Drawing.Size(310, 27);
             this.ComboBox3.TabIndex = 41;
             // 
             // TextBox4
             // 
             this.TextBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.TextBox4.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBox4.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.TextBox4.ForeColor = System.Drawing.Color.Black;
             this.TextBox4.Location = new System.Drawing.Point(196, 204);
             this.TextBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -416,7 +416,7 @@
             // TextBox3
             // 
             this.TextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.TextBox3.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBox3.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.TextBox3.ForeColor = System.Drawing.Color.Black;
             this.TextBox3.Location = new System.Drawing.Point(196, 168);
             this.TextBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -427,19 +427,19 @@
             // ComboBox2
             // 
             this.ComboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.ComboBox2.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComboBox2.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.ComboBox2.ForeColor = System.Drawing.Color.Black;
             this.ComboBox2.FormattingEnabled = true;
             this.ComboBox2.Location = new System.Drawing.Point(196, 132);
             this.ComboBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox2.Name = "ComboBox2";
-            this.ComboBox2.Size = new System.Drawing.Size(310, 32);
+            this.ComboBox2.Size = new System.Drawing.Size(310, 27);
             this.ComboBox2.TabIndex = 38;
             // 
             // ComboBox1
             // 
             this.ComboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.ComboBox1.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComboBox1.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.ComboBox1.ForeColor = System.Drawing.Color.Black;
             this.ComboBox1.FormattingEnabled = true;
             this.ComboBox1.Items.AddRange(new object[] {
@@ -451,13 +451,13 @@
             this.ComboBox1.Location = new System.Drawing.Point(196, 96);
             this.ComboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox1.Name = "ComboBox1";
-            this.ComboBox1.Size = new System.Drawing.Size(310, 32);
+            this.ComboBox1.Size = new System.Drawing.Size(310, 27);
             this.ComboBox1.TabIndex = 37;
             // 
             // TextBox2
             // 
             this.TextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.TextBox2.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBox2.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.TextBox2.ForeColor = System.Drawing.Color.Black;
             this.TextBox2.Location = new System.Drawing.Point(196, 60);
             this.TextBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -468,7 +468,7 @@
             // TextBox1
             // 
             this.TextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.TextBox1.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBox1.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.TextBox1.ForeColor = System.Drawing.Color.Black;
             this.TextBox1.Location = new System.Drawing.Point(196, 24);
             this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -479,132 +479,132 @@
             // Label12
             // 
             this.Label12.AutoSize = true;
-            this.Label12.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label12.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label12.ForeColor = System.Drawing.Color.Black;
             this.Label12.Location = new System.Drawing.Point(669, 29);
             this.Label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label12.Name = "Label12";
-            this.Label12.Size = new System.Drawing.Size(74, 24);
+            this.Label12.Size = new System.Drawing.Size(71, 19);
             this.Label12.TabIndex = 34;
             this.Label12.Text = "Normas:";
             // 
             // Label11
             // 
             this.Label11.AutoSize = true;
-            this.Label11.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label11.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label11.ForeColor = System.Drawing.Color.Black;
             this.Label11.Location = new System.Drawing.Point(647, 283);
             this.Label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label11.Name = "Label11";
-            this.Label11.Size = new System.Drawing.Size(119, 24);
+            this.Label11.Size = new System.Drawing.Size(115, 19);
             this.Label11.TabIndex = 33;
             this.Label11.Text = "Estado de uso:";
             // 
             // Label9
             // 
             this.Label9.AutoSize = true;
-            this.Label9.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label9.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label9.ForeColor = System.Drawing.Color.Black;
             this.Label9.Location = new System.Drawing.Point(81, 315);
             this.Label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(111, 24);
+            this.Label9.Size = new System.Drawing.Size(107, 19);
             this.Label9.TabIndex = 31;
             this.Label9.Text = "Responsable:";
             // 
             // Label8
             // 
             this.Label8.AutoSize = true;
-            this.Label8.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label8.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label8.ForeColor = System.Drawing.Color.Black;
             this.Label8.Location = new System.Drawing.Point(105, 284);
             this.Label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(85, 24);
+            this.Label8.Size = new System.Drawing.Size(83, 19);
             this.Label8.TabIndex = 30;
             this.Label8.Text = "Ubicación:";
             // 
             // Label7
             // 
             this.Label7.AutoSize = true;
-            this.Label7.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label7.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label7.ForeColor = System.Drawing.Color.Black;
             this.Label7.Location = new System.Drawing.Point(45, 248);
             this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(150, 24);
+            this.Label7.Size = new System.Drawing.Size(143, 19);
             this.Label7.TabIndex = 29;
             this.Label7.Text = "Unidad de medida:";
             // 
             // Label6
             // 
             this.Label6.AutoSize = true;
-            this.Label6.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label6.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label6.ForeColor = System.Drawing.Color.Black;
             this.Label6.Location = new System.Drawing.Point(111, 212);
             this.Label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(80, 24);
+            this.Label6.Size = new System.Drawing.Size(77, 19);
             this.Label6.TabIndex = 28;
             this.Label6.Text = "Cantidad:";
             // 
             // Label5
             // 
             this.Label5.AutoSize = true;
-            this.Label5.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label5.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label5.ForeColor = System.Drawing.Color.Black;
             this.Label5.Location = new System.Drawing.Point(53, 176);
             this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(136, 24);
+            this.Label5.Size = new System.Drawing.Size(135, 19);
             this.Label5.TabIndex = 27;
             this.Label5.Text = "Número de serie:";
             // 
             // Label4
             // 
             this.Label4.AutoSize = true;
-            this.Label4.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label4.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label4.ForeColor = System.Drawing.Color.Black;
             this.Label4.Location = new System.Drawing.Point(122, 140);
             this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(69, 24);
+            this.Label4.Size = new System.Drawing.Size(66, 19);
             this.Label4.TabIndex = 26;
             this.Label4.Text = "Modelo:";
             // 
             // Label3
             // 
             this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label3.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label3.ForeColor = System.Drawing.Color.Black;
             this.Label3.Location = new System.Drawing.Point(130, 104);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(60, 24);
+            this.Label3.Size = new System.Drawing.Size(58, 19);
             this.Label3.TabIndex = 25;
             this.Label3.Text = "Marca:";
             // 
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label2.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label2.ForeColor = System.Drawing.Color.Black;
             this.Label2.Location = new System.Drawing.Point(36, 68);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(157, 24);
+            this.Label2.Size = new System.Drawing.Size(152, 19);
             this.Label2.TabIndex = 24;
             this.Label2.Text = "Nombre del equipo:";
             // 
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label1.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label1.ForeColor = System.Drawing.Color.Black;
             this.Label1.Location = new System.Drawing.Point(96, 32);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(93, 24);
+            this.Label1.Size = new System.Drawing.Size(92, 19);
             this.Label1.TabIndex = 23;
             this.Label1.Text = "Referencia:";
             // 
