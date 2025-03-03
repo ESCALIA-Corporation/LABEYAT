@@ -3,64 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|c:\\users\\hp\\documents\\github\\labeyat\\labeyat\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|c:\\users\\hp\\documents\\github\\labeyat\\labeyat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\labeyat\\document8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\document8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\labeyat\\document7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\document7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\labeyat\\document6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\document6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|c:\\users\\hp\\documents\\github\\labeyat\\labeyat\\document5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\document5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|c:\\users\\hp\\documents\\github\\labeyat\\labeyat\\document1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\document1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|c:\\users\\hp\\documents\\github\\labeyat\\labeyat\\document2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\document2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|c:\\users\\hp\\documents\\github\\labeyat\\labeyat\\document3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\document3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|c:\\users\\hp\\documents\\github\\labeyat\\labeyat\\document4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\document4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|c:\\users\\hp\\documents\\github\\labeyat\\labeyat\\document8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\document8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|c:\\users\\hp\\documents\\github\\labeyat\\labeyat\\document7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\document7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|c:\\users\\hp\\documents\\github\\labeyat\\labeyat\\document5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\document5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|c:\\users\\hp\\documents\\github\\labeyat\\labeyat\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|c:\\users\\hp\\documents\\github\\labeyat\\labeyat\\document6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C24AB07B-590C-4E0C-9CCC-B1C93CDE0C01}|LABEYAT\\LABEYAT.csproj|solutionrelative:labeyat\\document6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,197 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\Program.cs",
-              "RelativeDocumentMoniker": "LABEYAT\\Program.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\Program.cs",
-              "RelativeToolTip": "LABEYAT\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:36:24.525Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "document1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document1.cs",
-              "RelativeDocumentMoniker": "LABEYAT\\document1.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "LABEYAT\\document1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:55:15.12Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "document2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document2.cs",
-              "RelativeDocumentMoniker": "LABEYAT\\document2.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "LABEYAT\\document2.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:55:13.275Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "document3.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document3.cs",
-              "RelativeDocumentMoniker": "LABEYAT\\document3.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document3.cs [Dise\u00F1o]",
-              "RelativeToolTip": "LABEYAT\\document3.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:55:10.608Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "window.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\window.cs",
-              "RelativeDocumentMoniker": "LABEYAT\\window.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\window.cs",
-              "RelativeToolTip": "LABEYAT\\window.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T19:39:22.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "document5.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document5.cs",
-              "RelativeDocumentMoniker": "LABEYAT\\document5.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document5.cs [Dise\u00F1o]",
-              "RelativeToolTip": "LABEYAT\\document5.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:34:28.983Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "document6.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document6.cs",
-              "RelativeDocumentMoniker": "LABEYAT\\document6.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document6.cs [Dise\u00F1o]",
-              "RelativeToolTip": "LABEYAT\\document6.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T19:33:38.436Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "document7.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document7.cs",
-              "RelativeDocumentMoniker": "LABEYAT\\document7.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document7.cs [Dise\u00F1o]",
-              "RelativeToolTip": "LABEYAT\\document7.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T19:33:49.106Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "document8.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document8.cs",
-              "RelativeDocumentMoniker": "LABEYAT\\document8.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document8.cs [Dise\u00F1o]",
-              "RelativeToolTip": "LABEYAT\\document8.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T19:34:00.129Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "window.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\window.cs",
               "RelativeDocumentMoniker": "LABEYAT\\window.cs",
               "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\window.cs [Dise\u00F1o]",
               "RelativeToolTip": "LABEYAT\\window.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:45:19.876Z",
+              "WhenOpened": "2025-03-03T02:13:29.339Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "document8.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document8.cs",
-              "RelativeDocumentMoniker": "LABEYAT\\document8.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document8.cs",
-              "RelativeToolTip": "LABEYAT\\document8.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAywIsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T19:49:49.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "document7.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document7.cs",
-              "RelativeDocumentMoniker": "LABEYAT\\document7.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document7.cs",
-              "RelativeToolTip": "LABEYAT\\document7.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAywIkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:07:10.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "document5.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document5.cs",
-              "RelativeDocumentMoniker": "LABEYAT\\document5.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document5.cs",
-              "RelativeToolTip": "LABEYAT\\document5.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAApwJEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:34:33.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "document4.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document4.cs",
-              "RelativeDocumentMoniker": "LABEYAT\\document4.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document4.cs [Dise\u00F1o]",
-              "RelativeToolTip": "LABEYAT\\document4.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:39:04.656Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "document6.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document6.cs",
-              "RelativeDocumentMoniker": "LABEYAT\\document6.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\LABEYAT\\LABEYAT\\document6.cs",
-              "RelativeToolTip": "LABEYAT\\document6.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAywIoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:30:23.405Z",
-              "EditorCaption": ""
             }
           ]
         }

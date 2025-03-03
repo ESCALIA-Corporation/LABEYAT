@@ -1,6 +1,6 @@
 # LABEYAT
 
-1.4 Stable
+1.5 Stable
 
 ## Descripción del Proyecto
 

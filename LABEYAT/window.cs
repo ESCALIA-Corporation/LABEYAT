@@ -36,15 +36,82 @@ namespace LABEYAT
 
         private void window_Load(object sender, EventArgs e)
         {
-            // TO SHOW PANNELS
-            panel1.Controls.Clear();
-            panel1.Controls.Add(uc7);
-            uc7.Dock = DockStyle.Fill;
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.Controls.Add(uc1);
+            uc1.Dock = DockStyle.Fill;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.Controls.Add(uc2);
+            uc2.Dock = DockStyle.Fill;  
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.Controls.Add(uc3);
+            uc3.Dock = DockStyle.Fill;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.Controls.Add(uc4);
+            uc4.Dock = DockStyle.Fill;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.Controls.Add(uc5);
+            uc5.Dock = DockStyle.Fill;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.Controls.Add(uc6);
+            uc6.Dock = DockStyle.Fill;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.Controls.Add(uc7);
+            uc7.Dock = DockStyle.Fill;
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            panel1.Controls.Clear();
+            panel1.Controls.Add(uc8);
+            uc8.Dock = DockStyle.Fill;
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            var confirmResult = MessageBox.Show(
+               "¿Estás seguro de que deseas cerrar la aplicación?",
+               "Confirmación de salida",
+               MessageBoxButtons.YesNo,
+               MessageBoxIcon.Question);
+
+            if (confirmResult == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
     }
 }
