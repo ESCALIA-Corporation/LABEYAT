@@ -171,9 +171,9 @@
             // 
             // PictureBox1
             // 
-            this.PictureBox1.Location = new System.Drawing.Point(419, 361);
+            this.PictureBox1.Location = new System.Drawing.Point(441, 362);
             this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(281, 108);
+            this.PictureBox1.Size = new System.Drawing.Size(321, 108);
             this.PictureBox1.TabIndex = 60;
             this.PictureBox1.TabStop = false;
             // 
@@ -181,7 +181,7 @@
             // 
             this.Button7.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Button7.ForeColor = System.Drawing.Color.Black;
-            this.Button7.Location = new System.Drawing.Point(348, 363);
+            this.Button7.Location = new System.Drawing.Point(382, 362);
             this.Button7.Name = "Button7";
             this.Button7.Size = new System.Drawing.Size(53, 28);
             this.Button7.TabIndex = 59;
@@ -196,7 +196,7 @@
             this.TextBox6.Location = new System.Drawing.Point(196, 364);
             this.TextBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TextBox6.Name = "TextBox6";
-            this.TextBox6.Size = new System.Drawing.Size(145, 27);
+            this.TextBox6.Size = new System.Drawing.Size(179, 27);
             this.TextBox6.TabIndex = 58;
             // 
             // Label22
@@ -232,7 +232,7 @@
             this.ComboBox13.Location = new System.Drawing.Point(770, 310);
             this.ComboBox13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox13.Name = "ComboBox13";
-            this.ComboBox13.Size = new System.Drawing.Size(145, 27);
+            this.ComboBox13.Size = new System.Drawing.Size(184, 27);
             this.ComboBox13.TabIndex = 55;
             // 
             // Label21
@@ -252,7 +252,7 @@
             this.Label14.AutoSize = true;
             this.Label14.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Label14.ForeColor = System.Drawing.Color.Black;
-            this.Label14.Location = new System.Drawing.Point(37, 445);
+            this.Label14.Location = new System.Drawing.Point(36, 451);
             this.Label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label14.Name = "Label14";
             this.Label14.Size = new System.Drawing.Size(191, 19);
@@ -263,7 +263,7 @@
             // 
             this.Button5.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.Button5.ForeColor = System.Drawing.Color.Black;
-            this.Button5.Location = new System.Drawing.Point(348, 18);
+            this.Button5.Location = new System.Drawing.Point(367, 18);
             this.Button5.Name = "Button5";
             this.Button5.Size = new System.Drawing.Size(139, 37);
             this.Button5.TabIndex = 51;
@@ -351,7 +351,7 @@
             this.ComboBox7.Location = new System.Drawing.Point(770, 277);
             this.ComboBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox7.Name = "ComboBox7";
-            this.ComboBox7.Size = new System.Drawing.Size(145, 27);
+            this.ComboBox7.Size = new System.Drawing.Size(184, 27);
             this.ComboBox7.TabIndex = 45;
             // 
             // ComboBox6
@@ -375,7 +375,7 @@
             this.ComboBox5.Location = new System.Drawing.Point(770, 244);
             this.ComboBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox5.Name = "ComboBox5";
-            this.ComboBox5.Size = new System.Drawing.Size(145, 27);
+            this.ComboBox5.Size = new System.Drawing.Size(184, 27);
             this.ComboBox5.TabIndex = 43;
             // 
             // ComboBox4
@@ -410,7 +410,7 @@
             this.TextBox4.Location = new System.Drawing.Point(196, 204);
             this.TextBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TextBox4.Name = "TextBox4";
-            this.TextBox4.Size = new System.Drawing.Size(145, 27);
+            this.TextBox4.Size = new System.Drawing.Size(310, 27);
             this.TextBox4.TabIndex = 40;
             // 
             // TextBox3
@@ -435,6 +435,7 @@
             this.ComboBox2.Name = "ComboBox2";
             this.ComboBox2.Size = new System.Drawing.Size(310, 27);
             this.ComboBox2.TabIndex = 38;
+            this.ComboBox2.SelectedIndexChanged += new System.EventHandler(this.ComboBox2_SelectedIndexChanged);
             // 
             // ComboBox1
             // 
@@ -442,17 +443,12 @@
             this.ComboBox1.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.ComboBox1.ForeColor = System.Drawing.Color.Black;
             this.ComboBox1.FormattingEnabled = true;
-            this.ComboBox1.Items.AddRange(new object[] {
-            "ADVANCE",
-            "AMPROBE",
-            "CEDAR",
-            "EMPIRE",
-            "HIOKI"});
             this.ComboBox1.Location = new System.Drawing.Point(196, 96);
             this.ComboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ComboBox1.Name = "ComboBox1";
             this.ComboBox1.Size = new System.Drawing.Size(310, 27);
             this.ComboBox1.TabIndex = 37;
+            this.ComboBox1.SelectedIndexChanged += new System.EventHandler(this.ComboBox1_SelectedIndexChanged);
             // 
             // TextBox2
             // 
@@ -473,7 +469,7 @@
             this.TextBox1.Location = new System.Drawing.Point(196, 24);
             this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(145, 27);
+            this.TextBox1.Size = new System.Drawing.Size(164, 27);
             this.TextBox1.TabIndex = 35;
             // 
             // Label12
