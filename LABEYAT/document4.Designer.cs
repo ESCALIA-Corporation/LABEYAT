@@ -155,7 +155,7 @@
             this.TabPage1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TabPage1.Size = new System.Drawing.Size(1143, 717);
             this.TabPage1.TabIndex = 0;
-            this.TabPage1.Text = "Datos generales";
+            this.TabPage1.Text = "0";
             // 
             // dataGridView1
             // 
@@ -168,12 +168,13 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1055, 209);
             this.dataGridView1.TabIndex = 61;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // PictureBox1
             // 
             this.PictureBox1.Location = new System.Drawing.Point(441, 362);
             this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(321, 108);
+            this.PictureBox1.Size = new System.Drawing.Size(290, 125);
             this.PictureBox1.TabIndex = 60;
             this.PictureBox1.TabStop = false;
             // 
@@ -234,6 +235,7 @@
             this.ComboBox13.Name = "ComboBox13";
             this.ComboBox13.Size = new System.Drawing.Size(184, 27);
             this.ComboBox13.TabIndex = 55;
+            this.ComboBox13.SelectedIndexChanged += new System.EventHandler(this.ComboBox13_SelectedIndexChanged);
             // 
             // Label21
             // 
@@ -269,6 +271,7 @@
             this.Button5.TabIndex = 51;
             this.Button5.Text = "Buscar";
             this.Button5.UseVisualStyleBackColor = true;
+            this.Button5.Click += new System.EventHandler(this.Button5_Click);
             // 
             // Button4
             // 
@@ -281,6 +284,7 @@
             this.Button4.TabIndex = 50;
             this.Button4.Text = "Limpiar";
             this.Button4.UseVisualStyleBackColor = true;
+            this.Button4.Click += new System.EventHandler(this.Button4_Click);
             // 
             // Button3
             // 
@@ -293,6 +297,7 @@
             this.Button3.TabIndex = 49;
             this.Button3.Text = "Eliminar";
             this.Button3.UseVisualStyleBackColor = true;
+            this.Button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // Button2
             // 
@@ -305,6 +310,7 @@
             this.Button2.TabIndex = 48;
             this.Button2.Text = "Actualizar";
             this.Button2.UseVisualStyleBackColor = true;
+            this.Button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // Button1
             // 
@@ -353,6 +359,7 @@
             this.ComboBox7.Name = "ComboBox7";
             this.ComboBox7.Size = new System.Drawing.Size(184, 27);
             this.ComboBox7.TabIndex = 45;
+            this.ComboBox7.SelectedIndexChanged += new System.EventHandler(this.ComboBox7_SelectedIndexChanged);
             // 
             // ComboBox6
             // 
@@ -365,6 +372,7 @@
             this.ComboBox6.Name = "ComboBox6";
             this.ComboBox6.Size = new System.Drawing.Size(310, 27);
             this.ComboBox6.TabIndex = 44;
+            this.ComboBox6.SelectedIndexChanged += new System.EventHandler(this.ComboBox6_SelectedIndexChanged);
             // 
             // ComboBox5
             // 
@@ -377,6 +385,7 @@
             this.ComboBox5.Name = "ComboBox5";
             this.ComboBox5.Size = new System.Drawing.Size(184, 27);
             this.ComboBox5.TabIndex = 43;
+            this.ComboBox5.SelectedIndexChanged += new System.EventHandler(this.ComboBox5_SelectedIndexChanged);
             // 
             // ComboBox4
             // 
@@ -389,6 +398,7 @@
             this.ComboBox4.Name = "ComboBox4";
             this.ComboBox4.Size = new System.Drawing.Size(310, 27);
             this.ComboBox4.TabIndex = 42;
+            this.ComboBox4.SelectedIndexChanged += new System.EventHandler(this.ComboBox4_SelectedIndexChanged);
             // 
             // ComboBox3
             // 
@@ -401,6 +411,7 @@
             this.ComboBox3.Name = "ComboBox3";
             this.ComboBox3.Size = new System.Drawing.Size(310, 27);
             this.ComboBox3.TabIndex = 41;
+            this.ComboBox3.SelectedIndexChanged += new System.EventHandler(this.ComboBox3_SelectedIndexChanged);
             // 
             // TextBox4
             // 
@@ -412,6 +423,7 @@
             this.TextBox4.Name = "TextBox4";
             this.TextBox4.Size = new System.Drawing.Size(310, 27);
             this.TextBox4.TabIndex = 40;
+            this.TextBox4.Text = " ";
             // 
             // TextBox3
             // 

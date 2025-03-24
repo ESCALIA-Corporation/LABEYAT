@@ -1,6 +1,6 @@
 # LABEYAT
 
-1.6 Stable
+1.7 Stable
 
 ## Descripción del Proyecto
 
@@ -61,4 +61,4 @@ Para cualquier consulta o sugerencia, por favor contacta a [alexalejandro4141@gm
 
 ---
 
-Made with ❤️ by ESCALIA Corporation. All rights reserved.
+Made with ❤️ by ESCALIA Corporation and Alejandro Barrientos Escalante

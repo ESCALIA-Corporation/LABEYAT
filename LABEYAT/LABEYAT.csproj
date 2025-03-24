@@ -114,6 +114,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\combobox\Estatus.cs" />
+    <Compile Include="src\combobox\Marca.cs" />
+    <Compile Include="src\combobox\Modelo.cs" />
+    <Compile Include="src\combobox\Responsable.cs" />
+    <Compile Include="src\combobox\UbicacionEquipo.cs" />
+    <Compile Include="src\combobox\UnidadMedida.cs" />
     <Compile Include="src\connectiondb.cs" />
     <Compile Include="window.cs">
       <SubType>Form</SubType>

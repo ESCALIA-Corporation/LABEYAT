@@ -104,6 +104,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1068, 248);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // TabControl1
             // 
@@ -172,6 +173,7 @@
             this.Button4.TabIndex = 69;
             this.Button4.Text = "Limpiar";
             this.Button4.UseVisualStyleBackColor = true;
+            this.Button4.Click += new System.EventHandler(this.Button4_Click);
             // 
             // Button3
             // 
@@ -184,6 +186,7 @@
             this.Button3.TabIndex = 68;
             this.Button3.Text = "Eliminar";
             this.Button3.UseVisualStyleBackColor = true;
+            this.Button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // Button2
             // 
@@ -196,6 +199,7 @@
             this.Button2.TabIndex = 67;
             this.Button2.Text = "Actualizar";
             this.Button2.UseVisualStyleBackColor = true;
+            this.Button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // Button1
             // 
@@ -302,6 +306,7 @@
             this.ComboBox7.Name = "ComboBox7";
             this.ComboBox7.Size = new System.Drawing.Size(145, 27);
             this.ComboBox7.TabIndex = 45;
+            this.ComboBox7.SelectedIndexChanged += new System.EventHandler(this.ComboBox7_SelectedIndexChanged);
             // 
             // ComboBox5
             // 
@@ -313,6 +318,7 @@
             this.ComboBox5.Name = "ComboBox5";
             this.ComboBox5.Size = new System.Drawing.Size(310, 27);
             this.ComboBox5.TabIndex = 43;
+            this.ComboBox5.SelectedIndexChanged += new System.EventHandler(this.ComboBox5_SelectedIndexChanged);
             // 
             // TextBox4
             // 
@@ -344,6 +350,7 @@
             this.ComboBox2.Name = "ComboBox2";
             this.ComboBox2.Size = new System.Drawing.Size(310, 27);
             this.ComboBox2.TabIndex = 38;
+            this.ComboBox2.SelectedIndexChanged += new System.EventHandler(this.ComboBox2_SelectedIndexChanged);
             // 
             // ComboBox1
             // 
@@ -361,6 +368,7 @@
             this.ComboBox1.Name = "ComboBox1";
             this.ComboBox1.Size = new System.Drawing.Size(310, 27);
             this.ComboBox1.TabIndex = 37;
+            this.ComboBox1.SelectedIndexChanged += new System.EventHandler(this.ComboBox1_SelectedIndexChanged);
             // 
             // TextBox2
             // 

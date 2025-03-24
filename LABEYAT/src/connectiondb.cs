@@ -14,7 +14,7 @@ namespace LABEYAT.src
     {
         public static SqlConnection Conectar()
         {
-            string connectionString = "SERVER=HP-PROBOOK\\BEOFALEJANDROSQL;DATABASE=LABEYAT;Integrated Security=True";
+            string connectionString = "SERVER=HP-PROBOOK\\BEOFALEJANDROSQL;DATABASE=LABEYAT;Integrated Security=True;Pooling=False;";
             SqlConnection conn = null;
 
             try
@@ -25,7 +25,6 @@ namespace LABEYAT.src
             }
             catch (SqlException ex)
             {
-                // Manejo de excepciones
                 Console.WriteLine("Error al conectar a la base de datos: " + ex.Message);
                 throw; // Lanza la excepción para que el llamador pueda manejarla
             }
