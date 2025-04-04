@@ -82,7 +82,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(203, 35);
             this.button2.TabIndex = 3;
-            this.button2.Text = "Equipo Officina";
+            this.button2.Text = "Equipo Oficina";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -94,7 +94,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(203, 35);
             this.button3.TabIndex = 4;
-            this.button3.Text = "Equipo Proposito";
+            this.button3.Text = "Equipo Propósito";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -106,7 +106,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(203, 35);
             this.button4.TabIndex = 5;
-            this.button4.Text = "Equipo Medicion";
+            this.button4.Text = "Equipo Medición";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -160,6 +160,7 @@
             // 
             // button9
             // 
+            this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button9.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.button9.Location = new System.Drawing.Point(0, 721);
@@ -187,7 +188,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "window";
-            this.Text = "window";
+            this.Text = "LABEYAT Dashboard";
             this.Load += new System.EventHandler(this.window_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -114,6 +114,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\combobox\Departamento.cs" />
     <Compile Include="src\combobox\Estatus.cs" />
     <Compile Include="src\combobox\Marca.cs" />
     <Compile Include="src\combobox\Modelo.cs" />
