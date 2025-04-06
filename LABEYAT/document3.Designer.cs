@@ -277,6 +277,7 @@
             this.CheckedListBox1.Name = "CheckedListBox1";
             this.CheckedListBox1.Size = new System.Drawing.Size(212, 202);
             this.CheckedListBox1.TabIndex = 46;
+            this.CheckedListBox1.SelectedIndexChanged += new System.EventHandler(this.CheckedListBox1_SelectedIndexChanged);
             // 
             // ComboBox7
             // 

@@ -192,6 +192,27 @@ namespace LABEYAT
         }
 
 
+        private void LlenarCheckedListBoxNormas()
+        {
+            try
+            {
+                CheckedListBox1.Items.Clear();
+                string query = "SELECT Nombre FROM [dbo].[Normas];";
+                SqlCommand cmd = new SqlCommand(query, Connectiondb.Conectar());
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    CheckedListBox1.Items.Add(reader["Nombre"].ToString());
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al cargar Normas en el CheckedListBox: {ex.Message}");
+            }
+        }
+
         public DataTable cargarequipomedicion()
         {
             DataTable dt = new DataTable();
@@ -214,6 +235,7 @@ namespace LABEYAT
         {
             try
             {
+                LlenarCheckedListBoxNormas();
                 LlenarComboBoxmarca();
                 LlenarComboBoxModelo();
                 LlenarComboBoxUnidaddeMedida();
@@ -500,6 +522,19 @@ namespace LABEYAT
                 Departamento departamentoseleccionado = (Departamento)ComboBox6.SelectedItem;
                 int idSeleccionado = departamentoseleccionado.IDDepto;
                 string nombreSeleccionado = departamentoseleccionado.Nombre;
+            }
+        }
+
+        private void CheckedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string elementosMarcados = "";
+            foreach (object item in CheckedListBox1.CheckedItems)
+            {
+                elementosMarcados += item.ToString() + ", ";
+            }
+            if (elementosMarcados.Length > 2)
+            {
+                elementosMarcados = elementosMarcados.Substring(0, elementosMarcados.Length - 2); // Elimina la última coma y espacio
             }
         }
     }
