@@ -20,6 +20,7 @@ namespace LABEYAT
         private document6 uc6;
         private document7 uc7;
         private document8 uc8;
+        private document9 uc9;
 
         public window()
         {
@@ -32,6 +33,7 @@ namespace LABEYAT
             uc6 = new document6();
             uc7 = new document7();
             uc8 = new document8();
+            uc9 = new document9();
         }
 
         private void window_Load(object sender, EventArgs e)
@@ -75,8 +77,8 @@ namespace LABEYAT
         private void button5_Click(object sender, EventArgs e)
         {
             panel1.Controls.Clear();
-            panel1.Controls.Add(uc5);
-            uc5.Dock = DockStyle.Fill;
+            panel1.Controls.Add(uc9);
+            uc9.Dock = DockStyle.Fill;
         }
 
         private void button6_Click(object sender, EventArgs e)

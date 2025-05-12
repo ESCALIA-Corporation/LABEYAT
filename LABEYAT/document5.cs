@@ -113,7 +113,6 @@ namespace LABEYAT
             TextBox2.Clear();
             TextBox3.Clear();
             TextBox4.Clear();
-
         }
 
         private void Button5_Click(object sender, EventArgs e)

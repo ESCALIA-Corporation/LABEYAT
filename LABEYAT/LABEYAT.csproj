@@ -112,6 +112,12 @@
     <Compile Include="document8.Designer.cs">
       <DependentUpon>document8.cs</DependentUpon>
     </Compile>
+    <Compile Include="document9.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="document9.Designer.cs">
+      <DependentUpon>document9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\combobox\Departamento.cs" />
@@ -151,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="document8.resx">
       <DependentUpon>document8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="document9.resx">
+      <DependentUpon>document9.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

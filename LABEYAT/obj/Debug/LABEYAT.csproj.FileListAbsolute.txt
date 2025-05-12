@@ -16,3 +16,4 @@ C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.document6.resourc
 C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.document7.resources
 C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.document8.resources
 C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.window.resources
+C:\Users\HP\Documents\GitHub\LABEYAT\LABEYAT\obj\Debug\LABEYAT.document9.resources
