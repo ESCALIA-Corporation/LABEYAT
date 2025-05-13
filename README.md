@@ -1,6 +1,6 @@
 # LABEYAT
 
-2.3 Stable Release
+2.4 Stable Release
 
 ## Descripción del Proyecto
 

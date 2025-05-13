@@ -29,10 +29,6 @@ namespace LABEYAT
             uc2 = new document2();
             uc3 = new document3();
             uc4 = new document4();
-            uc5 = new document5();
-            uc6 = new document6();
-            uc7 = new document7();
-            uc8 = new document8();
             uc9 = new document9();
         }
 

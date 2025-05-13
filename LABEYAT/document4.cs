@@ -322,6 +322,11 @@ namespace LABEYAT
 
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("Equipo de Medición agregado correctamente.");
+                        TextBox1.Clear();
+                        TextBox2.Clear();
+                        TextBox3.Clear();
+                        TextBox4.Clear();
+                        TextBox6.Clear();
                         dataGridView1.DataSource = equpomedicion();
                     }
                 }
@@ -411,6 +416,11 @@ namespace LABEYAT
             try
             {
                 cmd.ExecuteNonQuery();
+                TextBox1.Clear();
+                TextBox2.Clear();
+                TextBox3.Clear();
+                TextBox4.Clear();
+                TextBox6.Clear();
                 MessageBox.Show("Responsable eliminado correctamente");
             }
             catch (Exception ex)
@@ -524,6 +534,11 @@ namespace LABEYAT
 
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("Equipo de Medición actualizado correctamente.");
+                        TextBox1.Clear();
+                        TextBox2.Clear();
+                        TextBox3.Clear();
+                        TextBox4.Clear();
+                        TextBox6.Clear();
                         dataGridView1.DataSource = equpomedicion();
                     }
                 }

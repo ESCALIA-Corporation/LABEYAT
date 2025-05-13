@@ -155,73 +155,6 @@ namespace LABEYAT
             }
         }
 
-        private void button8_Click(object sender, EventArgs e)
-        {
-            Connectiondb.Conectar();
-            string query = "UPDATE [dbo].[Normas] SET Nombre = @nombre, Descripcion = @descripcion WHERE IDNorma = @idnorma;";
-            SqlCommand cmd = new SqlCommand(query, Connectiondb.Conectar());
-            cmd.Parameters.AddWithValue("@idnorma", TextBox1.Text);
-            cmd.Parameters.AddWithValue("@nombre", TextBox2.Text);
-            cmd.Parameters.AddWithValue("@descripcion", TextBox4.Text);
-            cmd.ExecuteNonQuery();
-
-            MessageBox.Show("Norma actualizada correctamente");
-            dataGridView1.DataSource = cargarnormas();
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            Connectiondb.Conectar();
-            string query = "DELETE FROM [dbo].[Normas] WHERE IDNorma = @idnorma;";
-            SqlCommand cmd = new SqlCommand(query, Connectiondb.Conectar());
-            cmd.Parameters.AddWithValue("@idnorma", TextBox1.Text);
-            try
-            {
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Norma eliminada correctamente");
-                dataGridView1.DataSource = cargarnormas();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al eliminar la norma: {ex.Message}");
-            }
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            TextBox1.Clear();
-            TextBox2.Clear();
-            TextBox4.Clear();
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            using (SqlConnection conn = Connectiondb.Conectar())
-            {
-                string query;
-                SqlCommand cmd = new SqlCommand();
-
-                if (int.TryParse(TextBox1.Text, out int id))
-                {
-                    query = "SELECT * FROM [dbo].[Normas] WHERE IdNorma = @idnorma;";
-                    cmd = new SqlCommand(query, conn);
-                    cmd.Parameters.AddWithValue("@idnorma", id);
-                }
-                else
-                {
-                    query = "SELECT * FROM [dbo].[Normas] WHERE Nombre LIKE @nombre;";
-                    cmd = new SqlCommand(query, conn);
-                    cmd.Parameters.AddWithValue("@nombre", "%" + TextBox1.Text + "%");
-                }
-
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
-
-                dataGridView1.DataSource = dt;
-            }
-        }
-
         private void button9_Click_1(object sender, EventArgs e)
         {
 
@@ -235,6 +168,8 @@ namespace LABEYAT
 
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Departamento agregado correctamente");
+                textBox5.Clear();
+                textBox3.Clear();
                 dataGridView2.DataSource = cargardepartamento();
             }
             catch (Exception ex)
@@ -257,6 +192,8 @@ namespace LABEYAT
                 cmd.ExecuteNonQuery();
 
                 MessageBox.Show("Departamento actualizado correctamente");
+                textBox5.Clear();
+                textBox3.Clear();
                 dataGridView2.DataSource = cargardepartamento();
             }
             catch (Exception ex)
@@ -275,6 +212,8 @@ namespace LABEYAT
             try
             {
                 cmd.ExecuteNonQuery();
+                textBox5.Clear();
+                textBox3.Clear();
                 MessageBox.Show("Marca eliminada correctamente");
             }
             catch (Exception ex)
@@ -299,18 +238,11 @@ namespace LABEYAT
                 string query;
                 SqlCommand cmd = new SqlCommand();
 
-                if (int.TryParse(textBox5.Text, out int id))
-                {
-                    query = "SELECT * FROM [dbo].[Departamento] WHERE IDDepto = @iddepto;";
-                    cmd = new SqlCommand(query, conn);
-                    cmd.Parameters.AddWithValue("@iddepto", id);
-                }
-                else
-                {
-                    query = "SELECT * FROM [dbo].[Departamento] WHERE Nombre LIKE @nombre;";
-                    cmd = new SqlCommand(query, conn);
-                    cmd.Parameters.AddWithValue("@nombre", "%" + TextBox1.Text + "%");
-                }
+                query = "SELECT * FROM [dbo].[Departamento] WHERE Nombre LIKE @nombre;";
+                cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@nombre", "%" + textBox3.Text + "%");
+                textBox3.Clear();
+                textBox5.Clear(); // Considera si realmente quieres limpiar textBox5 aquí
 
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
@@ -346,6 +278,10 @@ namespace LABEYAT
 
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Departamento agregado correctamente");
+                textBox12.Clear();
+                textBox11.Clear();
+                textBox10.Clear();
+                textBox9.Clear();
                 dataGridView4.DataSource = cargarresponsable();
             }
             catch (Exception ex)
@@ -384,6 +320,10 @@ namespace LABEYAT
 
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Departamento agregado correctamente");
+                textBox12.Clear();
+                textBox11.Clear();
+                textBox10.Clear();
+                textBox9.Clear();
                 dataGridView4.DataSource = cargarresponsable();
             }
             catch (Exception ex)
@@ -403,6 +343,10 @@ namespace LABEYAT
             {
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Responsable eliminado correctamente");
+                textBox12.Clear();
+                textBox11.Clear();
+                textBox10.Clear();
+                textBox9.Clear();
             }
             catch (Exception ex)
             {
@@ -436,6 +380,10 @@ namespace LABEYAT
                     query = "SELECT * FROM [dbo].[Responsable] WHERE IDResponsable = @idresponsable;";
                     cmd = new SqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@idresponsable", id);
+                    textBox12.Clear();
+                    textBox11.Clear();
+                    textBox10.Clear();
+                    textBox9.Clear();
                 }
                 else
                 {
@@ -464,6 +412,8 @@ namespace LABEYAT
 
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Marca agregada correctamente");
+                textBox8.Clear();
+                textBox7.Clear();
                 dataGridView3.DataSource = cargarmarca();
             }
             catch (Exception ex)
@@ -485,6 +435,8 @@ namespace LABEYAT
 
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Marca actualizada correctamente");
+                textBox8.Clear();
+                textBox7.Clear();
                 dataGridView3.DataSource = cargarmarca();
             }
             catch (Exception ex)
@@ -504,6 +456,8 @@ namespace LABEYAT
             try
             {
                 cmd.ExecuteNonQuery();
+                textBox8.Clear();
+                textBox7.Clear();
                 MessageBox.Show("Marca eliminada correctamente");
             }
             catch (Exception ex)
@@ -532,6 +486,8 @@ namespace LABEYAT
                     query = "SELECT * FROM [dbo].[Marca] WHERE IDMarca = @idmarca;";
                     cmd = new SqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@idmarca", id);
+                    textBox8.Clear();
+                    textBox7.Clear();
                 }
                 else
                 {
@@ -608,6 +564,9 @@ namespace LABEYAT
 
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Norma agregada correctamente");
+                TextBox1.Clear();
+                TextBox2.Clear();
+                TextBox4.Clear();
                 dataGridView1.DataSource = cargarnormas();
             }
             catch (Exception ex)
@@ -631,6 +590,9 @@ namespace LABEYAT
                 cmd.ExecuteNonQuery();
 
                 MessageBox.Show("Norma actualizada correctamente");
+                TextBox1.Clear();
+                TextBox2.Clear();
+                TextBox4.Clear();
                 dataGridView1.DataSource = cargarnormas();
             }
             catch (Exception ex)
@@ -650,6 +612,9 @@ namespace LABEYAT
             {
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Norma eliminada correctamente");
+                TextBox1.Clear();
+                TextBox2.Clear();
+                TextBox4.Clear();
                 dataGridView1.DataSource = cargarnormas();
             }
             catch (Exception ex)
@@ -677,6 +642,9 @@ namespace LABEYAT
                     query = "SELECT * FROM [dbo].[Normas] WHERE IdNorma = @idnorma;";
                     cmd = new SqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@idnorma", id);
+                    TextBox1.Clear();
+                    TextBox2.Clear();
+                    TextBox4.Clear();
                 }
                 else
                 {
@@ -743,6 +711,8 @@ namespace LABEYAT
 
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Marca agregada correctamente");
+                textBox13.Clear();
+                textBox6.Clear();
                 dataGridView5.DataSource = cargarmodelo();
             }
             catch (Exception ex)
@@ -776,6 +746,8 @@ namespace LABEYAT
 
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Marca agregada correctamente");
+                textBox13.Clear();
+                textBox6.Clear();
                 dataGridView5.DataSource = cargarmodelo();
             }
             catch (Exception ex)
@@ -795,6 +767,8 @@ namespace LABEYAT
             try
             {
                 cmd.ExecuteNonQuery();
+                textBox13.Clear();
+                textBox6.Clear();
                 MessageBox.Show("Marca eliminada correctamente");
             }
             catch (Exception ex)
@@ -823,6 +797,8 @@ namespace LABEYAT
                     query = "SELECT * FROM [dbo].[Modelo] WHERE IDModelo = @idmodelo;";
                     cmd = new SqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@idmodelo", id);
+                    textBox13.Clear();
+                    textBox6.Clear();
                 }
                 else
                 {
