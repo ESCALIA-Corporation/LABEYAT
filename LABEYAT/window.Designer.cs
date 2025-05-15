@@ -52,7 +52,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bahnschrift SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(54, 37);
+            this.label1.Location = new System.Drawing.Point(58, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(86, 23);
             this.label1.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button2.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(0, 97);
+            this.button2.Location = new System.Drawing.Point(0, 73);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(203, 35);
             this.button2.TabIndex = 3;
@@ -74,7 +74,7 @@
             // 
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button3.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
-            this.button3.Location = new System.Drawing.Point(0, 130);
+            this.button3.Location = new System.Drawing.Point(0, 106);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(203, 35);
             this.button3.TabIndex = 4;
@@ -86,7 +86,7 @@
             // 
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button4.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
-            this.button4.Location = new System.Drawing.Point(0, 163);
+            this.button4.Location = new System.Drawing.Point(0, 139);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(203, 35);
             this.button4.TabIndex = 5;
@@ -98,7 +98,7 @@
             // 
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button5.Font = new System.Drawing.Font("Bahnschrift SemiBold", 12F, System.Drawing.FontStyle.Bold);
-            this.button5.Location = new System.Drawing.Point(0, 196);
+            this.button5.Location = new System.Drawing.Point(0, 172);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(203, 35);
             this.button5.TabIndex = 6;

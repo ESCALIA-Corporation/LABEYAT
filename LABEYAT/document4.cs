@@ -214,7 +214,29 @@ namespace LABEYAT
         public DataTable equpomedicion()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT * FROM [dbo].[EquipoMedicion];";
+            string query = @"SELECT 
+                em.Referencia,
+                em.Nombre,
+                m.Nombre AS Marca,
+                mo.Descripcion AS Modelo,
+                em.NumSerie,
+                em.Imagen,
+                em.Cantidad,
+                um.Descripcion AS UnidadMedida,
+                ue.Descripcion AS Ubicacion,
+                r.Nombre AS Nombre,
+                r.Apellido_Paterno AS ApellidoPaterno,
+                r.Apellido_Materno AS ApellidoMaterno,
+                es.Descripcion AS Estatus,
+                em.EstadoUso,
+                em.EstadoMtto
+            FROM [dbo].[EquipoMedicion] em
+            LEFT JOIN [dbo].[Marca] m ON em.IDMarca = m.IDMarca
+            LEFT JOIN [dbo].[Modelo] mo ON em.IDModelo = mo.IDModelo
+            LEFT JOIN [dbo].[UnidadMedida] um ON em.IDUMedida = um.IDUMedida
+            LEFT JOIN [dbo].[UbicacionEquipo] ue ON em.IDUbicacion = ue.IDUbicacion
+            LEFT JOIN [dbo].[Responsable] r ON em.IDResponsable = r.IDResponsable
+            LEFT JOIN [dbo].[Estatus] es ON em.IDEstatus = es.IDEstatus;";
             using (SqlConnection connection = Connectiondb.Conectar())
             {
                 using (SqlCommand cmd = new SqlCommand(query, connection))

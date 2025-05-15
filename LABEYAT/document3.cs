@@ -216,7 +216,29 @@ namespace LABEYAT
         public DataTable cargarequipomedicion()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT * FROM [dbo].[EquipoPropositoPrueba];"; // Cambia esto si necesitas filtrar o seleccionar columnas específicas
+            string query = @"
+            SELECT 
+                epp.IDMaquinaria,
+                epp.NombreEquipo,
+                m.Nombre AS Marca,
+                mo.Descripcion AS Modelo,
+                epp.NumSerie,
+                epp.Cantidad,
+                um.Descripcion AS UnidadMedida,
+                ue.Descripcion AS Ubicacion,
+                r.Nombre AS Nombre,
+                r.Apellido_Paterno AS ApellidoPaterno,
+                r.Apellido_Materno AS ApellidoMaterno,
+                d.Nombre AS Departamento,
+                epp.EstadoUso,
+                epp.EstadoMtto
+            FROM [dbo].[EquipoPropositoPrueba] epp
+            LEFT JOIN [dbo].[Marca] m ON epp.IDMarca = m.IDMarca
+            LEFT JOIN [dbo].[Modelo] mo ON epp.IDModelo = mo.IDModelo
+            LEFT JOIN [dbo].[UnidadMedida] um ON epp.IDUMedida = um.IDUMedida
+            LEFT JOIN [dbo].[UbicacionEquipo] ue ON epp.IDUbicacion = ue.IDUbicacion
+            LEFT JOIN [dbo].[Responsable] r ON epp.IDResponsable = r.IDResponsable
+            LEFT JOIN [dbo].[Departamento] d ON epp.IDDepto = d.IDDepto;";
 
             using (SqlConnection connection = Connectiondb.Conectar())
             {

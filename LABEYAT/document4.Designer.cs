@@ -155,7 +155,7 @@
             this.TabPage1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TabPage1.Size = new System.Drawing.Size(1143, 717);
             this.TabPage1.TabIndex = 0;
-            this.TabPage1.Text = "0";
+            this.TabPage1.Text = "Datos Generales";
             // 
             // dataGridView1
             // 

@@ -134,7 +134,26 @@ namespace LABEYAT
         public DataTable CargarEquipooficina()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT * FROM [dbo].[EquipoOficina];";
+            string query = @"
+            SELECT 
+                eo.IDNumero,
+                eo.Nomenclatura,
+                eo.Inmueble,
+                m.Nombre AS Marca,    
+                mo.Descripcion AS Modelo, 
+                eo.NumSerie,
+                eo.Cantidad,
+                eo.Observaciones,
+                eo.FechaBaja,
+                r.Nombre AS Nombre, -- Nombre del responsable
+                r.Apellido_Paterno AS ApellidoPaterno,
+                r.Apellido_Materno AS ApellidoMaterno,
+                e.Descripcion AS Estatus  
+            FROM [dbo].[EquipoOficina] eo
+            LEFT JOIN [dbo].[Marca] m ON eo.IDMarca = m.IDMarca
+            LEFT JOIN [dbo].[Modelo] mo ON eo.IDModelo = mo.IDModelo
+            LEFT JOIN [dbo].[Responsable] r ON eo.IDResponsable = r.IDResponsable
+            LEFT JOIN [dbo].[Estatus] e ON eo.IDEstatus = e.IDEstatus;";
 
             using (SqlConnection connection = Connectiondb.Conectar())
             {

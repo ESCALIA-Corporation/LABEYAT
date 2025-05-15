@@ -157,7 +157,6 @@ namespace LABEYAT
 
         private void button9_Click_1(object sender, EventArgs e)
         {
-
             try
             {
                 Connectiondb.Conectar();
@@ -177,7 +176,6 @@ namespace LABEYAT
                 MessageBox.Show($"Error al agregar el departamento: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 
             }
-            
         }
 
         private void button8_Click_1(object sender, EventArgs e)
@@ -444,7 +442,6 @@ namespace LABEYAT
                 MessageBox.Show($"Error al actualizar la marca: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
-            
         }
 
         private void button13_Click(object sender, EventArgs e)
